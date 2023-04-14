@@ -1,0 +1,22 @@
+
+.testimony-carousel{
+    
+    margin: 0 0 20px 0;
+    padding: 20px;
+    display: flex;
+    .img-section{
+        width: 20%;
+        height: 150px;
+        margin: 10px;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+
+    .text-section{
+        text-align: justify;
+        padding: 10px;
+        width: 60%;
+        font-size: 18px;
+        // border: 1px solid black;
+    }
+}
