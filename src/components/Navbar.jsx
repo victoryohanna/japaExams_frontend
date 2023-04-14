@@ -264,23 +264,25 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link to="/" className="dropdown-item">
-                        Price & Services{" "}
+                        Price & Services
                       </Link>
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item dropdown">
+                <li >
                   <Link
-                    to="/"
-                    className="nav-link dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
+                    to="/faqs"
+                    className="nav-link "
+                  
                   >
                     FAQs
                   </Link>
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
+                  dropdown-toggle
+                  role="button"
+                    data-bs-toggle="dropdown"
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/faqs/gre" className="dropdown-item">
                         GRE
                       </Link>
                     </li>
@@ -296,7 +298,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link to="/" className="dropdown-item">
-                        GMAT{" "}
+                        GMAT
                       </Link>
                     </li>
                     <li>
@@ -319,7 +321,7 @@ const Navbar = () => {
                         Duolingo{" "}
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
             </div>
