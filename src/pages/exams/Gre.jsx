@@ -468,7 +468,6 @@ const GRE = () => {
                 hydrated, and stay focused on the task at hand.
               </li>
               <li>
-            
                 Get plenty of rest: Finally, it's important to get plenty of
                 rest in the days leading up to the exam. A good night's sleep
                 can help you feel refreshed and energized on test day.
