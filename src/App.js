@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"
 import AboutUs from "./pages/About";
 import GRE from "./pages/exams/Gre";
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/about' element={<AboutUs/>}/>
         <Route exact path='/gre' element={<GRE/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
-      
     </div>
   );
 }
