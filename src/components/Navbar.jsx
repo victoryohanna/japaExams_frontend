@@ -6,7 +6,6 @@ import { MdCall } from "react-icons/md";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 import "../sass/navbar.scss";
-// import '../styles/navbar.css'
 
 const Navbar = () => {
   return (
@@ -109,7 +108,6 @@ const Navbar = () => {
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
-                    
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -118,46 +116,45 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         GRE
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         TOEFL
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         IELTS
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         GMAT
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         SAT
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         OET
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         PTE
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                <Link
+                  <Link
                     className="nav-link dropdown-toggle"
-                    
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -166,106 +163,161 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to='/' className="dropdown-item " >
+                      <Link to="/" className="dropdown-item ">
                         Admission Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
-                        Personal Statements 
+                      <Link to="/" className="dropdown-item">
+                        Personal Statements
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Score Reporting
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Proof of Fund
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Passport Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Visa Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Study Abroad Packages
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item" >
+                      <Link to="/" className="dropdown-item">
                         Consultancy
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link to="/" className="nav-link dropdown-toggle"
-                   role="button"
-                   data-bs-toggle="dropdown"
-                   aria-expanded="false"
-                   >
-
+                  <Link
+                    to="/"
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Lectures & Training
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to='/' className="dropdown-item">
+                      <Link to="/" className="dropdown-item">
                         Join Online Classes
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item">
+                      <Link to="/" className="dropdown-item">
                         Join Physical Classes
                       </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item">
+                      <Link to="/" className="dropdown-item">
                         Get a Personal Tutor
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link to="/" className="nav-link  dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown">
+                  <Link
+                    to="/"
+                    className="nav-link  dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
                     Resources
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item">
-                        Get Study Materials
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item">
-                        FAQs
-                      </Link>
+                      <Link className="dropdown-item">Get Study Materials</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link to="/" className="nav-link dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
+                  <Link
+                    to="/"
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
                   >
                     Scholarships
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to='/' className="dropdown-item">Ongoing Scholarships</Link>
+                      <Link to="/" className="dropdown-item">
+                        Ongoing Scholarships
+                      </Link>
                     </li>
                     <li>
-                      <Link to='/' className="dropdown-item">Price & Services </Link>
+                      <Link to="/" className="dropdown-item">
+                        Price & Services{" "}
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link
+                    to="/"
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    FAQs
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        GRE
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        TOEFL{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        IELTS{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        GMAT{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        TOEFL{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        SAT{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        OET{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="dropdown-item">
+                        Duolingo{" "}
+                      </Link>
                     </li>
                   </ul>
                 </li>

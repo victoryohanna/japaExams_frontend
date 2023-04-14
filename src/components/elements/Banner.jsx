@@ -39,6 +39,7 @@ const Banner = () => {
         <Link to="/sat"><span>SAT</span> </Link>
         <Link to="/oet"><span>OET</span> </Link>
         <Link to="/pte"><span>PTE</span> </Link>
+        <Link to="/pte"><span>Duolingo</span> </Link>
       </div>
     </div>
   );
