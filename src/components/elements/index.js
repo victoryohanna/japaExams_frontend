@@ -35,6 +35,11 @@ export const data = [
   {
     title: "PTE",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    image: img1,
+  },
+  {
+    title: "Duolingo",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     image: img3,
   },
 ];
