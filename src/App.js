@@ -8,17 +8,20 @@ import GRE from "./pages/exams/Gre";
 import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
 import Qgre from "./components/elements/faqs/Qgre";
+import Qtoefl from "./components/elements/faqs/Qtoefl";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<AboutUs />} />
-        <Route exact path="/gre" element={<GRE />} />
-        <Route exact path="/faqs" element={<FAQs />}>
+        <Route  path="/" element={<Home />} />
+        <Route  path="/about" element={<AboutUs />} />
+        <Route  path="/gre" element={<GRE />} />
+        <Route  path="/faqs" element={<FAQs />}>
+          <Route path="/faqs" element={<Qgre />} />
           <Route path="/faqs/gre" element={<Qgre />} />
+          <Route path="/faqs/toefl" element={<Qtoefl />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
