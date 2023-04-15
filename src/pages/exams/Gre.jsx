@@ -1,5 +1,7 @@
 import "../../sass/gre.scss";
 
+import image from '../../assets/quint.jpg'
+
 const GRE = () => {
   return (
     <div className="gre-container">
@@ -263,7 +265,13 @@ const GRE = () => {
                 </tbody>
               </table>
             </p>
+
+            <div className="image-section">
+            <img src={image} alt="quint" />
           </div>
+
+          </div>
+          
         </div>
         <div className="collapse-content">
           <button
