@@ -128,7 +128,7 @@ const GRE = () => {
               </li>
               <li>
                 Boost your chances of getting fully funded scholarships and
-                fellowships in your dream university abroad.{" "}
+                fellowships in your dream university abroad.
               </li>
               <li>
                 The verbal section of the GRE also helps to demonstrate your
