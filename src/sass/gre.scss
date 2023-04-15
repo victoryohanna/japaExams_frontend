@@ -45,5 +45,15 @@
                 color: rgba(6, 6, 243);
             }
         }
+
+        .image-section{
+            margin: 40px 0;
+            // border: 1px solid black;
+
+            img{
+                width: 80%;
+                margin: auto;
+            }
+        }
     }
 }
