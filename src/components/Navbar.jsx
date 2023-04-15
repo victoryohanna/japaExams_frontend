@@ -269,59 +269,10 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li >
-                  <Link
-                    to="/faqs"
-                    className="nav-link "
-                  
-                  >
+                <li>
+                  <Link to="/faqs" className="nav-link ">
                     FAQs
                   </Link>
-                  {/* <ul className="dropdown-menu">
-                  dropdown-toggle
-                  role="button"
-                    data-bs-toggle="dropdown"
-                    <li>
-                      <Link to="/faqs/gre" className="dropdown-item">
-                        GRE
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        TOEFL{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        IELTS{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        GMAT
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        TOEFL{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        SAT{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        OET{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
-                        Duolingo{" "}
-                      </Link>
-                    </li>
-                  </ul> */}
                 </li>
               </ul>
             </div>
