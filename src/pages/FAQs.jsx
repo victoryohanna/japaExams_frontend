@@ -1,5 +1,5 @@
 import {Link, Outlet } from "react-router-dom";
-import "../sass/faqs.scss";
+import "../sass/faqs/faqs.scss";
 
 
 const FAQs = () => {
@@ -14,7 +14,7 @@ const FAQs = () => {
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/toefl">
               <span>TOEFL</span>
             </Link>
           </li>
