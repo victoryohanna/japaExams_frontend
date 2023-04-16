@@ -1,16 +1,16 @@
-import "../../sass/gre.scss";
+import "../../sass/toefl.scss";
 
 const TOEFL = () => {
   return (
-    <div className="gre-container">
-      <div className="gre-header">
+    <div className="toefl-container">
+      <div className="toefl-header">
         <h2>TOEFL Exam 2023 </h2>
         <h5>
           TOEFL Exam 2023 [Dates, Registration, Fees, Eligibility, Syllabus,
           Pattern, Preparation, Result & Score]
         </h5>
       </div>
-      <div className="gre-details ">
+      <div className="toefl-details ">
         <p>
           Welcome to our TOEFL exam preparation and registration page, your
           one-stop destination for all things related to the TOEFL exam. Whether
@@ -225,31 +225,7 @@ const TOEFL = () => {
             </p>
           </div>
         </div>
-        {/* <div className="collapse-content">
-          <button
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#scoreFormat"
-          >
-            <h6>Myth-Bursters - Myths Vs Realities of TOEFL</h6>
-          </button>
-          <div className="collapse" id="scoreFormat">
-            <p>
-            In addition to the tips and resources mentioned above, it's important to also address some common myths and misconceptions about the TOEFL exam. These myths can often create unnecessary anxiety and confusion for potential test-takers, including you, so it's important to clarify them:
-
-            </p>
-
-            <p>
-              GRE scores are valid for five years from the test date, giving you
-              ample time to use them for admission to your dream graduate
-              program or for employment opportunities
-            </p>
-            
-            <div className="image-section">
-              <img src={image} alt="quint" />
-            </div>
-          </div>
-        </div> */}
+        
         <div className="collapse-content">
           <button
             type="button"
