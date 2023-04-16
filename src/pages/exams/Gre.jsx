@@ -1,6 +1,6 @@
 import "../../sass/gre.scss";
 
-import image from '../../assets/quint.jpg'
+import image from "../../assets/quint.jpg";
 
 const GRE = () => {
   return (
@@ -9,7 +9,7 @@ const GRE = () => {
         <h2>GRE Exam 2023 </h2>
         <h5>
           [Dates, Registration, Fees, Eligibility, Syllabus, Pattern,
-          Preparation, Result & Score] 
+          Preparation, Result & Score]
         </h5>
       </div>
       <div className="gre-details ">
@@ -30,8 +30,8 @@ const GRE = () => {
           analytical writing skills. The computer-based exam takes about 3 hours
           and 45 minutes to complete and is divided into three main sections:
           Verbal Reasoning, Quantitative Reasoning, and Analytical Writing.
-        </p> 
-        <p> 
+        </p>
+        <p>
           The Verbal Reasoning section evaluates your ability to analyze and
           evaluate written material and synthesize information from it. The
           Quantitative Reasoning section assesses your problem-solving ability
@@ -265,13 +265,10 @@ const GRE = () => {
                 </tbody>
               </table>
             </p>
-
             <div className="image-section">
-            <img src={image} alt="quint" />
+              <img src={image} alt="quint" />
+            </div>
           </div>
-
-          </div>
-          
         </div>
         <div className="collapse-content">
           <button
@@ -454,7 +451,6 @@ const GRE = () => {
                 make your essay more compelling and convincing.
               </li>
               <li>
-               
                 Focus on clarity: Your writing should be clear, concise, and
                 well-organized. Use transitions between paragraphs, avoid overly
                 complex sentences, and proofread carefully to ensure that your
@@ -470,7 +466,6 @@ const GRE = () => {
                 before completing the entire exam.
               </li>
               <li>
-              
                 Stay calm and focused: Test days can be stressful, but it's
                 important to stay calm and focused. Take deep breaths, stay
                 hydrated, and stay focused on the task at hand.
