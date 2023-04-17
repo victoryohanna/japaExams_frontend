@@ -225,7 +225,7 @@ const TOEFL = () => {
             </p>
           </div>
         </div>
-        
+
         <div className="collapse-content">
           <button
             type="button"
@@ -321,12 +321,12 @@ const TOEFL = () => {
             <div>
               <span>1. Reading Section: </span>
               <p>
-              The reading section of the TOEFL exam is designed to test your
-              ability to read and understand academic texts in English. The
-              passages are typically taken from textbooks, academic journals,
-              and other sources commonly used in university settings. Here are
-              some tips and strategies to help you prepare for the reading
-              section of the TOEFL exam:
+                The reading section of the TOEFL exam is designed to test your
+                ability to read and understand academic texts in English. The
+                passages are typically taken from textbooks, academic journals,
+                and other sources commonly used in university settings. Here are
+                some tips and strategies to help you prepare for the reading
+                section of the TOEFL exam:
               </p>
               <ul>
                 <li>
@@ -350,11 +350,12 @@ const TOEFL = () => {
               </ul>
               <span>2. Listening Section: </span>
               <p>
-              The listening section of the TOEFL exam measures your ability to
-              understand spoken English in academic settings. You will listen to
-              lectures, classroom discussions, and conversations and answer
-              multiple-choice questions about the content, main ideas, and
-              details of each recording. Here are some tips to help you prepare:
+                The listening section of the TOEFL exam measures your ability to
+                understand spoken English in academic settings. You will listen
+                to lectures, classroom discussions, and conversations and answer
+                multiple-choice questions about the content, main ideas, and
+                details of each recording. Here are some tips to help you
+                prepare:
               </p>
               <ul>
                 <li>
@@ -377,10 +378,11 @@ const TOEFL = () => {
               </ul>
               <span>3. Speaking Section: </span>
               <p>
-              The speaking section of the TOEFL exam measures your ability to
-              speak English fluently and coherently. You will be asked to speak
-              on a variety of topics, including personal experiences, academic
-              topics, and opinions. Here are some tips to help you prepare:
+                The speaking section of the TOEFL exam measures your ability to
+                speak English fluently and coherently. You will be asked to
+                speak on a variety of topics, including personal experiences,
+                academic topics, and opinions. Here are some tips to help you
+                prepare:
               </p>
               <ul>
                 <li>
@@ -403,12 +405,12 @@ const TOEFL = () => {
               </ul>
               <span>4. Writing Section: </span>
               <p>
-              The writing section of the TOEFL exam measures your ability to
-              write academic English at the university level. You will be asked
-              to write an essay expressing your opinion on a given topic, as
-              well as summarize and respond to information presented in a
-              reading passage and a spoken recording. Here are some tips to help
-              you prepare:
+                The writing section of the TOEFL exam measures your ability to
+                write academic English at the university level. You will be
+                asked to write an essay expressing your opinion on a given
+                topic, as well as summarize and respond to information presented
+                in a reading passage and a spoken recording. Here are some tips
+                to help you prepare:
               </p>
               <ul>
                 <li>
