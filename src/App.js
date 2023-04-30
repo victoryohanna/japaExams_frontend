@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
 import Qgre from "./components/elements/faqs/Qgre";
 import Qtoefl from "./components/elements/faqs/Qtoefl";
+import QIelts from "./components/elements/faqs/Qielts";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/faqs" element={<Qgre />} />
           <Route path="/faqs/gre" element={<Qgre />} />
           <Route path="/faqs/toefl" element={<Qtoefl />} />
+          <Route path="/faqs/ielts" element={<QIelts/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

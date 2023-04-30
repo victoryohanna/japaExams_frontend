@@ -179,7 +179,7 @@ const IELTS = () => {
 
             <ul>
               <li>
-                1. Scoring: The IELTS exam is scored on a nine-band scale, with
+               <span>1. Scoring:</span>  The IELTS exam is scored on a nine-band scale, with
                 each band representing a different level of English proficiency.
                 The scores are reported as whole or half bands, ranging from 0
                 (non-user) to 9 (expert user).
@@ -192,7 +192,7 @@ const IELTS = () => {
                 opportunities, or immigration purposes.
               </li>
               <li>
-                2. Timing: The IELTS exam is a time-bound test, with a total
+               <span>2. Timing:</span>  The IELTS exam is a time-bound test, with a total
                 duration of 2 hours and 45 minutes. The four sections of the
                 exam are timed as follows
                 <ul>
@@ -338,7 +338,7 @@ const IELTS = () => {
               <li>
                 IELTS is only for academic purposes.
                 <p>
-                  Fact: The IELTS exam is not only necessary for those who want
+                 <span>Fact:</span>  The IELTS exam is not only necessary for those who want
                   to study at an English-speaking university. The exam is also
                   widely recognized for immigration purposes, employment
                   opportunities, and professional accreditation in various
@@ -348,7 +348,7 @@ const IELTS = () => {
               <li>
                 British English is the only accepted form of English.
                 <p>
-                  Fact: The IELTS exam is designed to test a candidate's
+                 <span>Fact:</span>  The IELTS exam is designed to test a candidate's
                   proficiency in both British and American English, and other
                   variations of the language.
                 </p>
@@ -356,7 +356,7 @@ const IELTS = () => {
               <li>
                 IELTS Speaking test is done with a British accent.
                 <p>
-                  Fact: The speaking test assesses a candidate's ability to
+                 <span>Fact:</span>  The speaking test assesses a candidate's ability to
                   communicate effectively, regardless of their accent. A
                   candidate's accent does not affect their score.
                 </p>
@@ -364,7 +364,7 @@ const IELTS = () => {
               <li>
                 There is only one version of the IELTS test.
                 <p>
-                  Fact: There are two versions of the exam: the Academic module,
+                 <span>Fact:</span>  There are two versions of the exam: the Academic module,
                   designed for those who plan to study at a university, and the
                   General Training module, designed for those who plan to work
                   or migrate to an English-speaking country.
@@ -373,14 +373,14 @@ const IELTS = () => {
               <li>
                 You can't use a dictionary during the exam.
                 <p>
-                  Fact: Candidates can use a non-electronic dictionary during
+                 <span>Fact:</span>  Candidates can use a non-electronic dictionary during
                   the exam for the reading and writing sections.
                 </p>
               </li>
               <li>
                 A high level of education guarantees a high score
                 <p>
-                  Fact: The IELTS exam assesses a candidate's language skills,
+                 <span>Fact:</span>  The IELTS exam assesses a candidate's language skills,
                   not their level of education. Even candidates with a lower
                   level of education can receive a high score if their language
                   skills are proficient.

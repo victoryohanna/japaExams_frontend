@@ -19,32 +19,32 @@ const FAQs = () => {
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/ielts">
               <span>IELTS</span>
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/gmat">
               <span>GMAT</span>
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/sat">
               <span>SAT</span>
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/oet">
               <span>OET</span>
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/pte">
               <span>PTE</span>
             </Link>
           </li>
           <li>
-            <Link>
+            <Link to="/faqs/duolingo">
               <span>Duolingo</span>
             </Link>
           </li>
