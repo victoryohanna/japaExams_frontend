@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import AboutUs from "./pages/About";
 import GRE from "./pages/exams/Gre";
 import TOEFL from "./pages/exams/Toefl";
+import IELTS from "./pages/exams/ielts";
 import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
 import Qgre from "./components/elements/faqs/Qgre";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/gre" element={<GRE />} />
         <Route path="/toefl" element={<TOEFL />} />
+        <Route path="/ielts" element={<IELTS/>}/>
         <Route path="/faqs" element={<FAQs />}>
           <Route path="/faqs" element={<Qgre />} />
           <Route path="/faqs/gre" element={<Qgre />} />
