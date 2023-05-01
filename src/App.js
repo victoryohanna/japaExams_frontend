@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Register from "./pages/Registration";
 import Footer from "./components/Footer";
 import AboutUs from "./pages/About";
 import GRE from "./pages/exams/Gre";
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/gre" element={<GRE />} />
         <Route path="/toefl" element={<TOEFL />} />
         <Route path="/ielts" element={<IELTS/>}/>

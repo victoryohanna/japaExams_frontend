@@ -1,36 +1,9 @@
-import { Link } from "react-router-dom";
-
+import { Link} from "react-router-dom";
 
 const Banner = () => {
 
-
   return (
     <div className="banner">
-      {/* <div className="banner-text">
-        <div
-          className="carousel slide  carousel-section"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <Link>
-                <h3>
-                  learn the most on demand skills needed by businesses and
-                  employers world wide"
-                </h3>
-              </Link>
-            </div>
-            <div className="carousel-item">
-              <Link>
-                <h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                  voluptates!
-                </h3>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="quickLinks">
         <Link to="/gre" ><span> GRE</span></Link>
         <Link to="/toefl"><span>TOEFL</span> </Link>
@@ -42,7 +15,7 @@ const Banner = () => {
         <Link to="/pte"><span>Duolingo</span> </Link>
       </div>
       <div className="register_button">
-        <button className="btn-register">Register Now</button>
+        <Link to='/register' >Register Now</Link>
       </div>
     </div>
   );
