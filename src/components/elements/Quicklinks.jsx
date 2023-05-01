@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../sass/quicklinks.scss';
-import { data } from './index';
+import { data } from './index'; 
 
 const Quicklinks = () => {
   return (

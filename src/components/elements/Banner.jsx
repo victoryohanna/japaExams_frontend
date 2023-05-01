@@ -41,6 +41,9 @@ const Banner = () => {
         <Link to="/pte"><span>PTE</span> </Link>
         <Link to="/pte"><span>Duolingo</span> </Link>
       </div>
+      <div className="register_button">
+        <button className="btn-register">Register Now</button>
+      </div>
     </div>
   );
 };
