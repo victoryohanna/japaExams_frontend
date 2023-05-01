@@ -17,22 +17,28 @@ const Footer = () => {
             <hr />
             <ul>
               <li>
-                <Link to="/">Frontend Development</Link>
+                <Link to="/">Admission Processing</Link>
               </li>
               <li>
-                <Link to="/">Backend Development</Link>
+                <Link to="/">Personal Statements</Link>
               </li>
               <li>
-                <Link to="/">Product Design</Link>
+                <Link to="/">Score Reporting</Link>
               </li>
               <li>
-                <Link to="/">Project Management</Link>
+                <Link to="/">Proof of Fund</Link>
               </li>
               <li>
-                <Link to="/">Business Analytics</Link>
+                <Link to="/">Passport Processing</Link>
               </li>
               <li>
-                <Link to="/"></Link>
+                <Link to="/">Visa Processing</Link>
+              </li>
+              <li>
+                <Link to='/'>Study Abroad Packages</Link>
+              </li>
+              <li>
+                <Link to='/'>Consultancy</Link>
               </li>
             </ul>
           </div>
@@ -47,7 +53,7 @@ const Footer = () => {
                   Lajorin Road, G.R.A Ilorin, Kwara State, Nigeria.
                 </p>
               </li>
-              <li>Phone Number: +23408090901234</li>
+              <li>Phone Number: +23408090901234</li> 
               <li>Email Address: info@exams.com</li>
             </ul>
           </div>
@@ -57,26 +63,30 @@ const Footer = () => {
                 <h4>Vision & Mission</h4>
               </div>
               <hr />
-              <p>
+              <div className="vission_section">
                 <h5>Vision Statement</h5>
-                “To empower students and professionals globally with the
-                necessary resources and guidance to succeed in their educational
-                and professional pursuits, and to be the leading provider of
-                end-to-end study abroad and immigration services.”
-              </p>
-              <p>
+                <p>
+                  “To empower students and professionals globally with the
+                  necessary resources and guidance to succeed in their
+                  educational and professional pursuits, and to be the leading
+                  provider of end-to-end study abroad and immigration services.”
+                </p>
+              </div>
+              <div className="mission_section">
                 <h5>Mission Statement</h5>
-                “Our mission is to facilitate and streamline the study abroad
-                and immigration process for our clients, from exam registration
-                to visa processing and beyond. We aim to provide high-quality
-                services and resources that enable students to achieve their
-                academic and career goals, and we strive to do so with
-                integrity, professionalism, and a commitment to excellence. We
-                are dedicated to making the study abroad experience accessible
-                to all, regardless of background or circumstance, and to
-                fostering a culture of diversity, inclusivity, and global
-                citizenship.”
-              </p>
+                <p>
+                  “Our mission is to facilitate and streamline the study abroad
+                  and immigration process for our clients, from exam
+                  registration to visa processing and beyond. We aim to provide
+                  high-quality services and resources that enable students to
+                  achieve their academic and career goals, and we strive to do
+                  so with integrity, professionalism, and a commitment to
+                  excellence. We are dedicated to making the study abroad
+                  experience accessible to all, regardless of background or
+                  circumstance, and to fostering a culture of diversity,
+                  inclusivity, and global citizenship.”
+                </p>
+              </div>
             </div>
 
             <div className="social-media">
