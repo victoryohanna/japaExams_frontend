@@ -1,0 +1,31 @@
+.qgmat-container{
+    
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px ;
+    font-family: Droid Sans;
+    text-align: justify;
+    font-size: 18px;
+
+    .collapse-content{
+        margin: 3px 0;
+    }
+
+    p{
+        text-align: justify;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .prep_resources{
+        h5{
+             margin-top: 20px;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        }
+       
+    }
+    
+}
