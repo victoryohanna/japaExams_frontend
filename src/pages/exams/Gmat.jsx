@@ -174,7 +174,7 @@ const GMAT = () => {
               are valid for only 5 years from the test date.
             </p>
 
-            <table class="table">
+            <table className="table">
               <thead>
                 <tr>
                   <th scope="col">GMAT Section</th>
