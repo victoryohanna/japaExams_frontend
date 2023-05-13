@@ -20,8 +20,7 @@ import QIelts from "./components/elements/faqs/Qielts";
 import Qgmat from "./components/elements/faqs/Qgmat"; 
 import Qsat from "./components/elements/faqs/Qsat"; 
 import Qoet from "./components/elements/faqs/Qoet";
-
-
+import Qpte from "./components/elements/faqs/Qpte";
 
 function App() {
   return (
@@ -46,6 +45,7 @@ function App() {
           <Route path="/faqs/gmat" element={<Qgmat/>}/>
           <Route path="/faqs/sat" element={<Qsat/>}/>
           <Route path="/faqs/oet" element={<Qoet/>}/>
+          <Route path="/faqs/pte" element={<Qpte/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
