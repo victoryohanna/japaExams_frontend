@@ -116,38 +116,43 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/gre" className="dropdown-item">
                         GRE
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/toefl" className="dropdown-item">
                         TOEFL
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/ielts" className="dropdown-item">
                         IELTS
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/gmat" className="dropdown-item">
                         GMAT
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/sat" className="dropdown-item">
                         SAT
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/oet" className="dropdown-item">
                         OET
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/pte" className="dropdown-item">
                         PTE
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/duolingo" className="dropdown-item">
+                        Duolingo
                       </Link>
                     </li>
                   </ul>

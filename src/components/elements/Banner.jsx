@@ -12,7 +12,7 @@ const Banner = () => {
         <Link to="/sat"><span>SAT</span> </Link>
         <Link to="/oet"><span>OET</span> </Link>
         <Link to="/pte"><span>PTE</span> </Link>
-        <Link to="/pte"><span>Duolingo</span> </Link>
+        <Link to="/duolingo"><span>Duolingo</span> </Link>
       </div>
       <div className="register_button">
         <Link to='/register' >Register Now</Link>
