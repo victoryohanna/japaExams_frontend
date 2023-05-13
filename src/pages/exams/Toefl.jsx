@@ -4,9 +4,9 @@ const TOEFL = () => {
   return (
     <div className="toefl-container">
       <div className="toefl-header">
-        <h2>TOEFL Exam 2023 </h2>
+        <h2>TOEFL Exam Registration- Everything You Need to Know in 2023 </h2>
         <h5>
-          TOEFL Exam 2023 [Dates, Registration, Fees, Eligibility, Syllabus,
+           [Dates, Registration, Fees, Eligibility, Syllabus,
           Pattern, Preparation, Result & Score]
         </h5>
       </div>

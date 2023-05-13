@@ -6,7 +6,7 @@ const GRE = () => {
   return (
     <div className="gre-container">
       <div className="gre-header">
-        <h2>GRE Exam 2023 </h2>
+        <h2>GRE Exam Registration- Everything You Need to Know in 2023</h2>
         <h5>
           [Dates, Registration, Fees, Eligibility, Syllabus, Pattern,
           Preparation, Result & Score]
