@@ -11,6 +11,7 @@ import IELTS from "./pages/exams/ielts";
 import GMAT from "./pages/exams/Gmat";
 import SAT from "./pages/exams/Sat";
 import OET from "./pages/exams/Oet";
+import PTE from "./pages/exams/Pte";
 import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
 import Qgre from "./components/elements/faqs/Qgre";
@@ -19,6 +20,7 @@ import QIelts from "./components/elements/faqs/Qielts";
 import Qgmat from "./components/elements/faqs/Qgmat"; 
 import Qsat from "./components/elements/faqs/Qsat"; 
 import Qoet from "./components/elements/faqs/Qoet";
+
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
         <Route path="/gmat" element={<GMAT/>}/>
         <Route path="/sat" element={<SAT/>}/>
         <Route path="/oet" element={<OET/>}/>
+        <Route path="/pte" element={<PTE/>}/>
         <Route path="/faqs" element={<FAQs />}>
           <Route path="/faqs" element={<Qgre />} />
           <Route path="/faqs/gre" element={<Qgre />} />
