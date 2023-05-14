@@ -105,7 +105,7 @@ const Passports = () => {
                         type="email"
                         className="form-control form-control-sm"
                         id="email"
-                        placeholder="Your full name"
+                        placeholder="Your email address"
                       />
                     </div>
                   </div>
@@ -131,7 +131,7 @@ const Passports = () => {
                         type="text"
                         className="form-control form-control-sm"
                         id="state"
-                        placeholder="Your of origin "
+                        placeholder="Your state of origin "
                       />
                     </div>
                   </div>
