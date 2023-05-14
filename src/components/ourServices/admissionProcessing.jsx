@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import image from "../../assets/process.jpg";
+import '../../sass/services/admissions.scss'
 
 const AdmissionProcessing = () => {
   return (
-    <div className="gre-container">
-      <div className="gre-header">
+    <div className="admissions-container">
+      <div className="admissions-header">
         <h2>Admission Processing Service </h2>
         <h5>
           [School Search, Document Review, Application Review, Consultation]
         </h5>
       </div>
-      <div className="gre-details ">
+      <div className="admissions-details ">
         <p>
           Are you tired of the complicated and time-consuming process of
           admission applications? Do you want to focus on the more important
@@ -87,7 +88,7 @@ const AdmissionProcessing = () => {
             will reach out to you once your order is received.
           </span>
           <div className="card mt-3">
-            <div className="card-body">
+            <div className="card-body form-card">
               <form>
                 <div className="row">
                   <div className="col-md-6">

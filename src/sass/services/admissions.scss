@@ -1,0 +1,46 @@
+.admissions-container {
+  padding: 2rem 0;
+
+  .admissions-header {
+    text-align: center;
+    margin: 1.5rem 0;
+
+    h2 {
+      font-weight: 700;
+    }
+
+    h5 {
+      opacity: 0.7;
+      font-style: italic;
+    }
+  }
+
+  .admissions-details {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: justify;
+
+    p {
+      font-size: 18px;
+    }
+
+    h5 {
+      font-weight: 700;
+      margin-top: 15px;
+    }
+
+    .form-addmission {
+      span {
+        opacity: 0.7;
+        font-style: italic;
+      }
+
+      .form-card {
+        border: 1px solid #f5f5f5;
+        border-radius: 0;
+        box-shadow: 0 0 2px 1px #f5f5f5;
+      }
+    }
+  }
+}
