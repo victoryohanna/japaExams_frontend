@@ -23,7 +23,8 @@ import Qoet from "./components/faqs/Qoet";
 import Qpte from "./components/faqs/Qpte";
 import OurServices from "./pages/Services";
 import AdmissionProcessing from "./components/ourServices/admissionProcessing";
-import PersonalStatement from "./components/ourServices/sop";
+import PersonalStatement from "./components/ourServices/sop"; 
+import ProofOfFund from "./components/ourServices/proofOfFund";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
         <Route path="/services" element={<OurServices/>}>
           <Route path="/services" element={<AdmissionProcessing/>}/>
           <Route path="/services/admissions" element={<AdmissionProcessing/>}/>
+          <Route path="/services/proof-fund" element={<ProofOfFund/>}/>
           <Route path="/services/personal-statements" element={<PersonalStatement/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
