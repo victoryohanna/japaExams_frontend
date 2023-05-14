@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qoet.scss";
+import "../../sass/faqs/qoet.scss";
 const Qoet = () => {
   return (
     <div className="qoet-container">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qsat.scss";
+import "../../sass/faqs/qsat.scss";
 const Qsat = () => {
   return (
     <div className="qsat-container">

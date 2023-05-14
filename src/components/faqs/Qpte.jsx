@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qpte.scss";
+import "../../sass/faqs/qpte.scss";
 const Qpte = () => {
   return (
     <div className="qsat-container">

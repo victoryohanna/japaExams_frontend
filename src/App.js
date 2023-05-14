@@ -14,13 +14,15 @@ import OET from "./pages/exams/Oet";
 import PTE from "./pages/exams/Pte";
 import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
-import Qgre from "./components/elements/faqs/Qgre";
-import Qtoefl from "./components/elements/faqs/Qtoefl";
-import QIelts from "./components/elements/faqs/Qielts";
-import Qgmat from "./components/elements/faqs/Qgmat"; 
-import Qsat from "./components/elements/faqs/Qsat"; 
-import Qoet from "./components/elements/faqs/Qoet";
-import Qpte from "./components/elements/faqs/Qpte";
+import Qgre from "./components/faqs/Qgre";
+import Qtoefl from "./components/faqs/Qtoefl";
+import QIelts from "./components/faqs/Qielts";
+import Qgmat from "./components/faqs/Qgmat"; 
+import Qsat from "./components/faqs/Qsat"; 
+import Qoet from "./components/faqs/Qoet";
+import Qpte from "./components/faqs/Qpte";
+import OurServices from "./pages/Services";
+import AdmissionProcessing from "./components/ourServices/admissionProcessing";
 
 function App() {
   return (
@@ -46,6 +48,10 @@ function App() {
           <Route path="/faqs/sat" element={<Qsat/>}/>
           <Route path="/faqs/oet" element={<Qoet/>}/>
           <Route path="/faqs/pte" element={<Qpte/>}/>
+        </Route>
+        <Route path="/services" element={<OurServices/>}>
+          <Route path="/services" element={<AdmissionProcessing/>}/>
+          <Route path="/services/admissions" element={<AdmissionProcessing/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

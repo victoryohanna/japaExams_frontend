@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qgre.scss";
+import "../../sass/faqs/qgre.scss";
 const Qgre = () => {
   return (
     <div className="qgre-container">

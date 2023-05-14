@@ -168,42 +168,42 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/" className="dropdown-item ">
+                      <Link to="/services/admissions" className="dropdown-item ">
                         Admission Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/personal-statements" className="dropdown-item">
                         Personal Statements
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/score-reporting" className="dropdown-item">
                         Score Reporting
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/proof-fund" className="dropdown-item">
                         Proof of Fund
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/passports" className="dropdown-item">
                         Passport Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/visa" className="dropdown-item">
                         Visa Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/" className="dropdown-item">
                         Study Abroad Packages
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/services/" className="dropdown-item">
                         Consultancy
                       </Link>
                     </li>

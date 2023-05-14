@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qgmat.scss";
+import "../../sass/faqs/qgmat.scss";
 const Qgmat = () => {
   return (
     <div className="qgmat-container">

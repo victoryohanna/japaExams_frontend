@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../../sass/faqs/qtoefl.scss";
+import "../../sass/faqs/qtoefl.scss";
 
 const Qtoefl = () => {
   return (
