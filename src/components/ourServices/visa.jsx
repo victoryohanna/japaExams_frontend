@@ -1,51 +1,53 @@
-import { Link } from "react-router-dom"; 
-import "../../sass/services/passports.scss";
+import { Link } from "react-router-dom";
+import "../../sass/services/visa.scss";
 
-const Passports = () => {
+const Visa = () => {
   return (
-    <div className="passport-container">
-      <div className="passport-header">
-        <h2>International Passport Processing – Get your passports faster!</h2>
+    <div className="visa-container">
+      <div className="visa-header">
+        <h2>Visa Processing – Get your visa without struggle!</h2>
       </div>
-      <div className="passport-details ">
+      <div className="visa-details ">
         <p>
-          If you're planning an international trip or trying to study abroad and
-          need a passport, look no further than our international passport
-          processing service. We specialize in helping individuals and
-          businesses obtain passports quickly and efficiently, so you can focus
-          on planning your travels.
+          Welcome to our visa processing service, where we strive to make your
+          visa application process a hassle-free experience. We understand the
+          stress and confusion that can come with applying for a visa, which is
+          why we are here to assist you every step of the way.
         </p>
         <p>
-          Our experienced team will guide you through every step of the passport
-          application process, from filling out forms to expedited processing
-          options. We offer a variety of services to meet your specific needs,
-          including first-time passport applications, passport renewals, and
-          name changes.
+          Welcome to our visa processing service, where we strive to make your
+          visa application process a hassle-free experience. We understand the
+          stress and confusion that can come with applying for a visa, which is
+          why we are here to assist you every step of the way.
         </p>
         <p>
-          One of the main benefits of using our service is that we can save you
-          time. In current Nigeria, applying for a passport on your own can take
-          weeks or even months, but we have the expertise to get your passport
-          to you in a shorter time. We also offer expedited processing options
-          if you need your passport even faster.
+          Our visa processing service is designed to save you time and effort.
+          We offer a range of services to suit your needs, including document
+          verification, application submission, and appointment scheduling. We
+          also provide personalized assistance to ensure that you are fully
+          prepared for your visa interview.
         </p>
         <p>
-          In addition to saving time, using our international passport
-          processing service can also save you a lot of hassle. Navigating the
-          passport application process can be confusing and frustrating,
-          especially if you're not familiar with the requirements. Our team will
-          take care of everything, ensuring that your application is complete
-          and accurate.
+          At our visa processing service, we pride ourselves on our commitment
+          to quality and customer satisfaction. We understand that every visa
+          application is unique, which is why we take the time to understand
+          your specific requirements and provide tailored solutions that meet
+          your needs.
+        </p>
+        <p>
+          We also offer competitive pricing and transparent fees, so you know
+          exactly what you are paying for. We believe in providing value for
+          money and ensuring that our clients receive the best possible service
+          at a reasonable cost.
         </p>
 
         <div className="contactus ">
-          <h5>Why Choose US? </h5>
           <p>
-            We're committed to providing excellent customer service and have a
-            proven track record of success. Our fees are affordable and
-            transparent, and we offer a satisfaction guarantee. With our help,
-            you'll be ready to explore the world in no time.{" "}
-            <Link to="/"> Contact us</Link> today to get started.
+            If you are planning to travel abroad and require a visa, look no
+            further than our visa processing service. Let us take the stress out
+            of the process and help you achieve your travel dreams.
+            <Link to="/">Contact us</Link> today to learn more about our
+            services and how we can assist you with your visa application.
           </p>
           <div className="row button-section">
             <div className="col-md-6">
@@ -55,16 +57,16 @@ const Passports = () => {
             </div>
             <div className="col-md-6 d-flex justify-content-end">
               <Link to="/" type="button" className="btn btn-primary">
-                Order for passport processing
+                Order for Visa processing
               </Link>
             </div>
           </div>
         </div>
         <div className="form-addmission">
-          <h5 className="mt-3">Passport Processing Form details</h5>
+          <h5 className="mt-3">Visa Processing Form details</h5>
           <span>
-            To start with, complete the form below carefully. A passport
-            processing expert will reach out to you once your order is received.
+            Complete the form below carefully. A visa processing expert will
+            reach out to you once your order is received.
           </span>
           <div className="card mt-3">
             <div className="card-body form-card">
@@ -124,14 +126,14 @@ const Passports = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="mb-3">
-                      <label htmlFor="state" className="form-label">
-                        State
+                      <label htmlFor="country" className="form-label">
+                        Proposed Country
                       </label>
                       <input
                         type="text"
                         className="form-control form-control-sm"
-                        id="state"
-                        placeholder="Your state of origin "
+                        id="country"
+                        placeholder="Country "
                       />
                     </div>
                   </div>
@@ -150,4 +152,4 @@ const Passports = () => {
   );
 };
 
-export default Passports;
+export default Visa;
