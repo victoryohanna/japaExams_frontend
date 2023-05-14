@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-
 import { GrMail } from "react-icons/gr";
-import { TfiTimer } from "react-icons/tfi";
 import { MdCall } from "react-icons/md";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
+import brand from "../assets/brand.png";
 
 import "../sass/navbar.scss";
 
@@ -11,9 +10,9 @@ const Navbar = () => {
   return (
     <div className="nav-wrapper">
       <div className="top-nav-links container">
-        <div>
+        <div className="brand_section">
           <Link to="/" className="navbar-brand">
-            Brand
+            <img src={brand} alt="brand" />
           </Link>
         </div>
         <div className="nav-quick-links">
@@ -26,19 +25,7 @@ const Navbar = () => {
                 <div>
                   <span>Mail Us</span>
                   <br />
-                  <span className="email">info@exams.ng</span>
-                </div>
-              </li>
-            </Link>
-            <Link>
-              <li>
-                <span className="quick-links-icon">
-                  <TfiTimer />
-                </span>
-                <div>
-                  <span>Openning Time</span>
-                  <br />
-                  <span className="date">Mon - Sat. 7:30am</span>
+                  <span className="email">info@japaexams.com</span>
                 </div>
               </li>
             </Link>
@@ -50,13 +37,13 @@ const Navbar = () => {
                 <div>
                   <span>Call/WhatsApp</span>
                   <br />
-                  <span className="contact">+2348099992234</span>
+                  <span className="contact">+2348066090867</span>
                 </div>
               </li>
             </Link>
           </ul>
         </div>
-        <div className="nav-social-media-links">
+        {/* <div className="nav-social-media-links">
           <ul>
             <Link>
               <li>
@@ -74,16 +61,16 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="container-fluid navbar-wrapper">
-        <nav className=" container navbar navbar-expand-lg">
+        <nav className=" container navbar navbar-expand-lg navbar-body">
           <div className="container-fluid">
-            {/* <Link to="/" className="navbar-brand">
-            Brand
-          </Link> */}
+            <Link to="/" className="navbar-brand navbar-mobile">
+            <img src={brand} alt="brand" className="" />
+          </Link>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler fff"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -91,20 +78,16 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon toggle-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="collapse navbar-collapse nav-collapse " id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link to="/" className="nav-link " aria-current="page">
                     Home
                   </Link>
                 </li>
-                {/* <li className="nav-item">
-                  <Link to="/" className="nav-link">
-                    About
-                  </Link>
-                </li> */}
+                
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -274,7 +257,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="nav-item">
                   <Link to="/faqs" className="nav-link ">
                     FAQs
                   </Link>

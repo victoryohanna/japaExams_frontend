@@ -16,7 +16,7 @@ const Header = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={image1} className="img-carousel " alt="slide 1" />
+            <img src={image1} className="img-carousel " alt="slide 1" /> 
           </div>
           <div className="carousel-item">
             <img src={image2} className="img-carousel" alt="slide 2" />

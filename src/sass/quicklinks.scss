@@ -1,44 +1,42 @@
-.container{
-    
-    // font-family: Droid Sans;
-    .main{
-        
-        margin: 3rem 0;
+.container {
+  // font-family: Droid Sans;
+  .main {
+    margin: 3rem 0;
 
-        img{
-            border-radius: 4px;
-            width: 98%;
-            margin: 5px 0;
-        }
-
-        a{
-            text-decoration: none;
-            color: #1a1a1b;
-        }
-
-        a:hover{
-            color: blue;
-        }
+    img {
+      border-radius: 4px;
+      width: 98%;
+      margin: 5px 0;
     }
 
-    .img-section{
-        margin: 5px 0;
+    a {
+      text-decoration: none;
+      color: #1a1a1b;
     }
 
-    .img-section:hover{
-        opacity: 0.5;
+    a:hover {
+      color: blue;
     }
+  }
 
-    h2{
-        text-align: center;
-        font-family: Droid Sans;
-    }
+  .img-section {
+    margin: 5px 0;
+  }
 
-    h5{
-        font-family: Droid Sans;
-    }
+  .img-section:hover {
+    opacity: 0.5;
+  }
 
-    p{
-        text-align: justify;
-    }
+  h2 {
+    text-align: center;
+    font-family: Droid Sans;
+  }
+
+  h5 {
+    font-family: Droid Sans;
+  }
+
+  p {
+    text-align: justify;
+  }
 }
