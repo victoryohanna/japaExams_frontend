@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import image from "../../assets/process.jpg";
-import '../../sass/services/admissions.scss'
+import "../../sass/services/admissions.scss";
 
 const AdmissionProcessing = () => {
   return (
@@ -46,8 +46,10 @@ const AdmissionProcessing = () => {
           what matters most. Whether you're applying to a top-tier university, a
           community college, or a vocational school, we've got you covered.
         </p>
-        <h5>Our Process</h5>
+
         <div className="image-section">
+          <h5>Our Process</h5>
+
           <img src={image} alt="our process" />
         </div>
         <div className="choose-us">
@@ -68,7 +70,7 @@ const AdmissionProcessing = () => {
           </p>
         </div>
         <div className="contactus ">
-          <div className="row">
+          <div className="row button-section">
             <div className="col-md-6">
               <Link to="/" type="button" className="btn btn-primary">
                 Contact Us
@@ -158,7 +160,6 @@ const AdmissionProcessing = () => {
                       <select
                         className="form-select form-select-sm"
                         aria-label="Default select"
-                        
                       >
                         <option>Please select</option>
                         <option>Undergraduate</option>
@@ -198,7 +199,9 @@ const AdmissionProcessing = () => {
                   </div>
                 </div>
                 <div className="form-submit d-flex justify-content-end ">
-                  <button type="button" className="btn btn-primary">Submit</button>
+                  <button type="button" className="btn btn-primary">
+                    Submit
+                  </button>
                 </div>
               </form>
             </div>
