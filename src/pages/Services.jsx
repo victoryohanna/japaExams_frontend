@@ -5,7 +5,6 @@ import "../sass/faqs/faqs.scss";
 const OurServices = () => {
   return (
     <div className="container">
-     
       <Outlet />
     </div>
   );
