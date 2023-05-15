@@ -6,8 +6,8 @@ const TOEFL = () => {
       <div className="toefl-header">
         <h2>TOEFL Exam Registration- Everything You Need to Know in 2023 </h2>
         <h5>
-           [Dates, Registration, Fees, Eligibility, Syllabus,
-          Pattern, Preparation, Result & Score]
+          [Dates, Registration, Fees, Eligibility, Syllabus, Pattern,
+          Preparation, Result & Score]
         </h5>
       </div>
       <div className="toefl-details ">
@@ -148,84 +148,82 @@ const TOEFL = () => {
               together to get your overall score. The scores are valid for only
               two years from the test date.
             </p>
-            <p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">Task</th>
-                    <th scope="col">Time</th>
-                    <th scope="col">Score Range</th>
-                    <th scope="col">TOEFL Score category</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Reading</td>
-                    <td>Read passages and respond to questions.</td>
-                    <td>54 – 72 mins</td>
-                    <td>0 - 30</td>
-                    <td>
-                      Advanced (24–30) High-Intermediate (18–23)
-                      Low-Intermediate (4–17) Below Low-Intermediate (0–3)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Listening </td>
-                    <td>
-                      Answer questions about brief lectures or classroom
-                      discussions.
-                    </td>
-                    <td>41 – 57 mins</td>
-                    <td>0 – 30</td>
-                    <td>
-                      Advanced (22–30) High-Intermediate (17–21)
-                      Low-Intermediate (9–16) Below Low-Intermediate (0–8)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Break</td>
-                    <td>Water, Snacks and Toilet</td>
-                    <td>10 mins</td>
-                    <td> - </td>
-                    <td> - </td>
-                  </tr>
-                  <tr>
-                    <td>Speaking </td>
-                    <td>
-                      Talk about a familiar topic and discuss material you read
-                      and listened to.
-                    </td>
-                    <td>17 mins</td>
-                    <td>0 – 30</td>
-                    <td>
-                      Advanced (25–30) High-Intermediate (20–24)
-                      Low-Intermediate (16–19) Basic (10–15) Below Basic (0–9)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Writing </td>
-                    <td>
-                      Read a passage, listen to a recording, type your response
-                    </td>
-                    <td>50 mins </td>
-                    <td>0 - 30</td>
-                    <td>
-                      Advanced (24–30) High-Intermediate (17–23)
-                      Low-Intermediate (13–16) Basic (7–12) Below Basic (0–6)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colSpan="2">Total (All Sections)</td>
-                    <td>3.5 - 4 hrs</td>
-                    <td>0 - 120</td>
-                  </tr>
-                </tbody>
-              </table>
-            </p>
+
+            <table className="table">
+              <thead>
+                <tr>
+                  <th scope="col">Section</th>
+                  <th scope="col">Task</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">Score Range</th>
+                  <th scope="col">TOEFL Score category</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Reading</td>
+                  <td>Read passages and respond to questions.</td>
+                  <td>54 – 72 mins</td>
+                  <td>0 - 30</td>
+                  <td>
+                    Advanced (24–30) High-Intermediate (18–23) Low-Intermediate
+                    (4–17) Below Low-Intermediate (0–3)
+                  </td>
+                </tr>
+                <tr>
+                  <td>Listening </td>
+                  <td>
+                    Answer questions about brief lectures or classroom
+                    discussions.
+                  </td>
+                  <td>41 – 57 mins</td>
+                  <td>0 – 30</td>
+                  <td>
+                    Advanced (22–30) High-Intermediate (17–21) Low-Intermediate
+                    (9–16) Below Low-Intermediate (0–8)
+                  </td>
+                </tr>
+                <tr>
+                  <td>Break</td>
+                  <td>Water, Snacks and Toilet</td>
+                  <td>10 mins</td>
+                  <td> - </td>
+                  <td> - </td>
+                </tr>
+                <tr>
+                  <td>Speaking </td>
+                  <td>
+                    Talk about a familiar topic and discuss material you read
+                    and listened to.
+                  </td>
+                  <td>17 mins</td>
+                  <td>0 – 30</td>
+                  <td>
+                    Advanced (25–30) High-Intermediate (20–24) Low-Intermediate
+                    (16–19) Basic (10–15) Below Basic (0–9)
+                  </td>
+                </tr>
+                <tr>
+                  <td>Writing </td>
+                  <td>
+                    Read a passage, listen to a recording, type your response
+                  </td>
+                  <td>50 mins </td>
+                  <td>0 - 30</td>
+                  <td>
+                    Advanced (24–30) High-Intermediate (17–23) Low-Intermediate
+                    (13–16) Basic (7–12) Below Basic (0–6)
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan="2">Total (All Sections)</td>
+                  <td>3.5 - 4 hrs</td>
+                  <td>0 - 120</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-
         <div className="collapse-content">
           <button
             type="button"

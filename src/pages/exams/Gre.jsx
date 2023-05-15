@@ -174,8 +174,8 @@ const GRE = () => {
               ample time to use them for admission to your dream graduate
               program or for employment opportunities
             </p>
-            <p>
-              <table class="table">
+            
+              <table className="table">
                 <thead>
                   <tr>
                     <th scope="col">Section</th>
@@ -186,7 +186,7 @@ const GRE = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Analytical</td>
+                    <td>Analytical</td> 
                     <td>
                       Two Essays:
                       <br />
@@ -264,7 +264,7 @@ const GRE = () => {
                   </tr>
                 </tbody>
               </table>
-            </p>
+           
             <div className="image-section">
               <img src={image} alt="quint" />
             </div>
