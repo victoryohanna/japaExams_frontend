@@ -100,25 +100,35 @@
     .top-nav-links {
       display: none;
     }
-  }
 
-  .navbar-wrapper {
-    .navbar-body {
-      .nav-collapse {
-        .navbar-nav {
-          .nav-item {
-            display: block;
-            text-align: left;
-            border-right: none;
+    .navbar-wrapper {
+      background: #ffffff;
+
+      a{
+        color: #000000;
+      }
+      .navbar-body {
+        .nav-collapse {
+          .navbar-nav {
+            .nav-item {
+              display: block;
+              text-align: left;
+              border-right: none;
+              
+            }
           }
         }
       }
     }
+
   }
+
+  
 }
 
 @media screen and (min-width: 991px) {
   .navbar-wrapper {
+    background: #ffffff;
     .navbar-body {
       a {
         color: #ffffff;

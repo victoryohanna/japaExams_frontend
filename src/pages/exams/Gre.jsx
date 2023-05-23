@@ -1,4 +1,5 @@
 import "../../sass/gre.scss";
+import { Link } from "react-router-dom";
 
 import image from "../../assets/quint.jpg";
 
@@ -278,7 +279,7 @@ const GRE = () => {
           >
             <h6>2023 GRE Exam: Myth-Bursters - Myths Vs Realities of GRE</h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <p>
               In addition to the tips and resources mentioned above, it's
               important to also address some common myths and misconceptions
@@ -288,18 +289,18 @@ const GRE = () => {
             </p>
             <ul>
               <li>
-                The GRE is all about memorization.
+              <span>Myth #1: The GRE is all about memorization.</span>
                 <p>
-                  Reality While the GRE does require a certain level of
+                 <span>Reality:</span>  While the GRE does require a certain level of
                   knowledge, it is not a test of memorization. Rather, it is
                   designed to assess your ability to reason, analyze, and draw
                   conclusions based on the information provided.
                 </p>
               </li>
               <li>
-                You need to have a background in math to do well on the GRE.
+              <span>Myth #2: You need to have a background in math to do well on the GRE.</span>
                 <p>
-                  Reality: While the GRE does include math questions, it is not
+                 <span>Reality:</span>  While the GRE does include math questions, it is not
                   necessary to have a background in math to do well on the test.
                   The math questions are designed to test your ability to reason
                   and apply mathematical concepts, rather than your ability to
@@ -307,9 +308,9 @@ const GRE = () => {
                 </p>
               </li>
               <li>
-                The verbal section is all about vocabulary.
+              <span>Myth #3: The verbal section is all about vocabulary.</span>
                 <p>
-                  Reality: While having a strong vocabulary can certainly be
+                 <span>Reality:</span>  While having a strong vocabulary can certainly be
                   helpful on the verbal section of the GRE, it is not the only
                   factor that determines success. The verbal section also
                   includes questions on reading comprehension, critical
@@ -317,28 +318,28 @@ const GRE = () => {
                 </p>
               </li>
               <li>
-                The GRE is only important if you're applying to graduate school.
+               <span>Myth #4: The GRE is only important if you're applying to graduate school.</span> 
                 <p>
-                  Reality: While the GRE is often required for admission to
+                 <span>Reality:</span>  While the GRE is often required for admission to
                   graduate programs, it can also be used for other purposes,
                   such as qualifying for scholarships, fellowships, or research
                   positions.
                 </p>
               </li>
               <li>
-                You only get one chance to take the GRE.
+                <span>Myth #5: You only get one chance to take the GRE.</span>
                 <p>
-                  Reality: You can take the GRE multiple times, and many
+                 <span>Reality:</span>  You can take the GRE multiple times, and many
                   graduate programs will only consider your highest score.
                   However, it's important to keep in mind that taking the GRE
                   too many times can reflect poorly on your application.
                 </p>
               </li>
               <li>
-                The computer-delivered GRE is easier than the paper-based
-                version.
+              <span>Myth #6: The computer-delivered GRE is easier than the paper-based
+                version.</span>
                 <p>
-                  Reality: While the format of the test may be different, the
+                 <span>Reality:</span>  While the format of the test may be different, the
                   content and difficulty level of the computer-delivered GRE is
                   the same as the paper-based version. It's important to choose
                   the format that you are most comfortable with and to prepare
@@ -492,6 +493,11 @@ const GRE = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="faq d-flex justify-content-center">
+        <Link to='/faqs/gre' className="btn btn-primary mx-3">GRE Frequently Asked Questions</Link>
+        <Link to='/faqs/gre' className="btn btn-primary mx-3">Register GRE Exams</Link>
+        <Link to='/faqs/gre' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

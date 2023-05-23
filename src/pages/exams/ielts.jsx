@@ -1,4 +1,5 @@
 import "../../sass/gre.scss"; 
+import { Link } from "react-router-dom";
 
 const IELTS = () => {
   return (
@@ -326,7 +327,7 @@ const IELTS = () => {
           >
             <h6>IELTS Exam: Myth-Busters</h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <p>
               In addition to the tips and resources mentioned above, it's
               important to also address some common myths and misconceptions
@@ -336,7 +337,7 @@ const IELTS = () => {
             </p>
             <ul>
               <li>
-                IELTS is only for academic purposes.
+                <span>Myth #1: IELTS is only for academic purposes.</span>
                 <p>
                  <span>Fact:</span>  The IELTS exam is not only necessary for those who want
                   to study at an English-speaking university. The exam is also
@@ -346,7 +347,7 @@ const IELTS = () => {
                 </p>
               </li>
               <li>
-                British English is the only accepted form of English.
+                <span>Myth #2: British English is the only accepted form of English.</span>
                 <p>
                  <span>Fact:</span>  The IELTS exam is designed to test a candidate's
                   proficiency in both British and American English, and other
@@ -354,7 +355,7 @@ const IELTS = () => {
                 </p>
               </li>
               <li>
-                IELTS Speaking test is done with a British accent.
+                <span>Myth #3: IELTS Speaking test is done with a British accent.</span>
                 <p>
                  <span>Fact:</span>  The speaking test assesses a candidate's ability to
                   communicate effectively, regardless of their accent. A
@@ -362,7 +363,7 @@ const IELTS = () => {
                 </p>
               </li>
               <li>
-                There is only one version of the IELTS test.
+                <span>Myth #4: There is only one version of the IELTS test.</span>
                 <p>
                  <span>Fact:</span>  There are two versions of the exam: the Academic module,
                   designed for those who plan to study at a university, and the
@@ -371,14 +372,14 @@ const IELTS = () => {
                 </p>
               </li>
               <li>
-                You can't use a dictionary during the exam.
+                <span>Myth #5: You can't use a dictionary during the exam.</span>
                 <p>
                  <span>Fact:</span>  Candidates can use a non-electronic dictionary during
                   the exam for the reading and writing sections.
                 </p>
               </li>
               <li>
-                A high level of education guarantees a high score
+                <span>Myth #6: A high level of education guarantees a high score</span>
                 <p>
                  <span>Fact:</span>  The IELTS exam assesses a candidate's language skills,
                   not their level of education. Even candidates with a lower
@@ -389,6 +390,11 @@ const IELTS = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="faq d-flex justify-content-center">
+        <Link to='/faqs/ielts' className="btn btn-primary mx-3">IELTS Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register IELTS Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

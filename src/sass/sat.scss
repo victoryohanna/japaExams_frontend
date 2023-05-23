@@ -32,7 +32,23 @@
 
     .collapse-content{
         // margin: 10px 0;
-
+        .myth-burster {
+            ul {
+              li {
+                list-style: none;
+      
+                span {
+                  
+                  font-weight: 700;
+                }
+      
+                p {
+                  
+                  font-weight: 500;
+                }
+              }
+            }
+          }
         button{
             background: rgba(32,48,64);
             color: #ffffff;
@@ -55,5 +71,10 @@
                 margin: auto;
             }
         }
+    }
+
+    .faq{
+        display: flex;
+        justify-content: center;
     }
 }

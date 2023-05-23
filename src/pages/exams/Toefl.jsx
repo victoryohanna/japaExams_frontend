@@ -1,4 +1,5 @@
 import "../../sass/toefl.scss";
+import { Link } from "react-router-dom";
 
 const TOEFL = () => {
   return (
@@ -162,25 +163,25 @@ const TOEFL = () => {
               <tbody>
                 <tr>
                   <td>Reading</td>
-                  <td>Read passages and respond to questions.</td>
-                  <td>54 – 72 mins</td>
-                  <td>0 - 30</td>
+                  <td>Read passages and <br/> respond to questions.</td>
+                  <td>54–72 mins</td>
+                  <td>0-30</td>
                   <td>
-                    Advanced (24–30) High-Intermediate (18–23) Low-Intermediate
-                    (4–17) Below Low-Intermediate (0–3)
+                    Advanced (24–30) <br/> High-Intermediate (18–23)<br/> Low-Intermediate
+                    (4–17)<br/> Below Low-Intermediate (0–3)
                   </td>
                 </tr>
                 <tr>
                   <td>Listening </td>
                   <td>
-                    Answer questions about brief lectures or classroom
+                    Answer questions about brief lectures<br/> or classroom
                     discussions.
                   </td>
-                  <td>41 – 57 mins</td>
-                  <td>0 – 30</td>
+                  <td>41–57 mins</td>
+                  <td>0–30</td>
                   <td>
-                    Advanced (22–30) High-Intermediate (17–21) Low-Intermediate
-                    (9–16) Below Low-Intermediate (0–8)
+                    Advanced (22–30)<br/> High-Intermediate (17–21)<br/> Low-Intermediate
+                    (9–16)<br/> Below Low-Intermediate (0–8)
                   </td>
                 </tr>
                 <tr>
@@ -193,32 +194,32 @@ const TOEFL = () => {
                 <tr>
                   <td>Speaking </td>
                   <td>
-                    Talk about a familiar topic and discuss material you read
+                    Talk about a familiar topic and <br/> discuss material you read
                     and listened to.
                   </td>
                   <td>17 mins</td>
-                  <td>0 – 30</td>
+                  <td>0–30</td>
                   <td>
-                    Advanced (25–30) High-Intermediate (20–24) Low-Intermediate
-                    (16–19) Basic (10–15) Below Basic (0–9)
+                    Advanced (25–30)<br/> High-Intermediate (20–24)<br/> Low-Intermediate
+                    (16–19)<br/> Basic (10–15) Below Basic (0–9)
                   </td>
                 </tr>
                 <tr>
                   <td>Writing </td>
                   <td>
-                    Read a passage, listen to a recording, type your response
+                    Read a passage, listen to a recording, <br/> type your response
                   </td>
                   <td>50 mins </td>
-                  <td>0 - 30</td>
+                  <td>0-30</td>
                   <td>
-                    Advanced (24–30) High-Intermediate (17–23) Low-Intermediate
+                    Advanced (24–30)<br/> High-Intermediate (17–23)<br/> Low-Intermediate
                     (13–16) Basic (7–12) Below Basic (0–6)
                   </td>
                 </tr>
                 <tr>
                   <td colSpan="2">Total (All Sections)</td>
-                  <td>3.5 - 4 hrs</td>
-                  <td>0 - 120</td>
+                  <td>3.5-4 hrs</td>
+                  <td>0-120</td>
                 </tr>
               </tbody>
             </table>
@@ -234,7 +235,7 @@ const TOEFL = () => {
               2023 TOEFL Exam: Myth-Bursters - Myths Vs Realities of TOEFL
             </h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <p>
               In addition to the tips and resources mentioned above, it's
               important to also address some common myths and misconceptions
@@ -244,20 +245,20 @@ const TOEFL = () => {
             </p>
             <ul>
               <li>
-                You need to be a native English speaker to do well on the TOEFL
-                Exam.
+                <span>Myth #1: You need to be a native English speaker to do well on the TOEFL
+                Exam.</span>
                 <p>
-                  Reality: The TOEFL exam is designed to measure English
+                  <span>Reality:</span> The TOEFL exam is designed to measure English
                   language proficiency, not to test whether you are a native
                   speaker. Non-native speakers can and often do perform very
                   well on the exam with the right preparation and practice.
                 </p>
               </li>
               <li>
-                You need to know advanced vocabulary to do well on the TOEFL
-                Exam.
+                <span>Myth #2: You need to know advanced vocabulary to do well on the TOEFL
+                Exam.</span>
                 <p>
-                  Reality: While a strong vocabulary can certainly help you do
+                  <span>Reality:</span> While a strong vocabulary can certainly help you do
                   well on the exam, the TOEFL exam is designed to measure
                   overall English language proficiency, not just vocabulary.
                   It's more important to have a good understanding of grammar,
@@ -265,20 +266,20 @@ const TOEFL = () => {
                 </p>
               </li>
               <li>
-                You need to speak with a specific accent to do well on the TOEFL
-                Exam.
+                <span>Myth #3: You need to speak with a specific accent to do well on the TOEFL
+                Exam.</span>
                 <p>
-                  Reality: The TOEFL exam is designed to measure your ability to
+                  <span>Reality:</span> The TOEFL exam is designed to measure your ability to
                   communicate in English, regardless of your accent. The exam is
                   scored based on factors such as clarity, fluency, and
                   accuracy, not on accent or pronunciation.
                 </p>
               </li>
               <li>
-                You need to memorize complex grammar rules to do well on the
-                TOEFL Exam.
+                <span>Myth #4: You need to memorize complex grammar rules to do well on the
+                TOEFL Exam.</span>
                 <p>
-                  Reality: While it's important to have a good understanding of
+                  <span>Reality:</span> While it's important to have a good understanding of
                   English grammar, you don't need to memorize complex rules to
                   do well on the TOEFL Exam. Instead, focus on understanding
                   basic grammar concepts and practice using them in context.
@@ -450,16 +451,11 @@ const TOEFL = () => {
             </p>
           </div>
         </div>
-        {/* <div className="collapse-content">
-          <button
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#myth-burster3"
-          >
-            <h6>Preparing for the GRE Exam in 2023-Tips and Strategies</h6>
-          </button>
-          
-        </div> */}
+      </div>
+      <div className="faq d-flex justify-content-center">
+        <Link to='/faqs/toefl' className="btn btn-primary mx-3">TOEFL Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register TOEFL Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

@@ -1,58 +1,60 @@
-.toefl-container{
-    padding: 2rem 0;
+.toefl-container {
+  padding: 2rem 0;
 
-    .toefl-header{
-        text-align: center;
-        margin: 1.5rem 0;
+  .toefl-header {
+    text-align: center;
+    margin: 1.5rem 0;
 
-        h2{
-            font-weight: 700;
-        }
-        
-        h5{
-            opacity: 0.7;
-            font-style: italic;
-        }
+    h2 {
+      font-weight: 700;
     }
 
-    .toefl-details{
-        width: 70%;
-        margin: 10px auto;
-        padding: 10px;
-        text-align: justify;
+    h5 {
+      opacity: 0.7;
+      font-style: italic;
+    }
+  }
 
-        p{
-            font-size: 18px;
-        }
+  .toefl-details {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: justify;
 
-        h6{
-            font-weight: 500;
-        }
+    p {
+      font-size: 18px;
     }
 
-    .collapse-content{
-        // margin: 10px 0;
-
-        button{
-            background: rgba(32,48,64);
-            color: #ffffff;
-            padding: 5px 20px;
-            margin: 5px 0;
-            border: rgba(32,48,64);
-            border-radius: 4px;
-
-            :hover{
-                color: rgba(6, 6, 243);
-            }
-        }
-
-        .collapse{
-            
-                span{
-                    font-weight: 700;
-                }
-            
-        }
-       
+    h6 {
+      font-weight: 500;
     }
+  }
+
+  .collapse-content {
+    // margin: 10px 0;
+
+    button {
+      background: rgba(32, 48, 64);
+      color: #ffffff;
+      padding: 5px 20px;
+      margin: 5px 0;
+      border: rgba(32, 48, 64);
+      border-radius: 4px;
+
+      :hover {
+        color: rgba(6, 6, 243);
+      }
+    }
+
+    .collapse {
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .faq {
+    display: flex;
+    justify-content: center;
+  }
 }

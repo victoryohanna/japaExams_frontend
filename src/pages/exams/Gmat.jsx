@@ -1,4 +1,5 @@
 import "../../sass/gre.scss";
+import { Link } from "react-router-dom";
 
 const GMAT = () => {
   return (
@@ -242,22 +243,22 @@ const GMAT = () => {
               GMAT Exam in 2023; Myth-Bursters [Myths Vs Realities of GMAT]
             </h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <ul>
               <li>
-                GMAT scores are the only factor that business schools consider
-                for admission.The GRE is all about memorization.
+                <span>Myth #1: GMAT scores are the only factor that business schools consider
+                for admission.The GRE is all about memorization.</span>
                 <p>
-                  Reality: While a strong GMAT score is important, business
+                  <span>Reality:</span> While a strong GMAT score is important, business
                   schools consider a range of factors when evaluating
                   candidates, including work experience, academic record, and
                   leadership potential.
                 </p>
               </li>
               <li>
-                Only people with a background in business should take the GMAT.
+                <span>Myth #2: Only people with a background in business should take the GMAT.</span>
                 <p>
-                  Reality: The GMAT is designed to test skills that are
+                  <span>Reality:</span> The GMAT is designed to test skills that are
                   important for success in business school, but it is not
                   limited to people with a background in business. Students from
                   a variety of academic backgrounds can take the GMAT and
@@ -265,36 +266,36 @@ const GMAT = () => {
                 </p>
               </li>
               <li>
-                You need to have a high level of math skills to do well on the
-                GMAT.
+                <span>Myth #3: You need to have a high level of math skills to do well on the
+                GMAT.</span>
                 <p>
-                  Reality: While the GMAT does test math skills, it is designed
+                  <span>Reality:</span> While the GMAT does test math skills, it is designed
                   to assess your ability to reason logically and solve problems.
                   You do not need to be a math expert to do well on the GMAT.
                 </p>
               </li>
               <li>
-                The GMAT is all about memorization.
+                <span>Myth #4: The GMAT is all about memorization.</span>
                 <p>
-                  Reality: The GMAT is designed to test your critical thinking
+                  <span>Reality:</span> The GMAT is designed to test your critical thinking
                   and analytical skills, not your ability to memorize
                   information. The exam focuses on your ability to analyze
                   information, draw conclusions, and make decisions.
                 </p>
               </li>
               <li>
-                You only need to take the GMAT once.
+               <span>Myth #5: You only need to take the GMAT once.</span>
                 <p>
-                  Reality: While you can take the GMAT multiple times, it is
+                  <span>Reality:</span> While you can take the GMAT multiple times, it is
                   important to prepare thoroughly for each attempt. Your scores
                   from multiple attempts will be visible to business schools, so
                   it is important to show improvement over time.
                 </p>
               </li>
               <li>
-                You can't prepare for the GMAT.
+                <span>Myth #6: You can't prepare for the GMAT.</span>
                 <p>
-                  Reality: The GMAT is a standardized test, which means that it
+                  <span>Reality:</span> The GMAT is a standardized test, which means that it
                   is possible to prepare for it. There are a variety of
                   resources available, including prep courses, study materials,
                   and practice tests. With sufficient preparation, you can
@@ -370,6 +371,11 @@ const GMAT = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="faq d-flex justify-content-center">
+        <Link to='/faqs/gmat' className="btn btn-primary mx-3">GMAT Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register GMAT Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

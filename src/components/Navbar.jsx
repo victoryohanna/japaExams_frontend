@@ -43,25 +43,6 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        {/* <div className="nav-social-media-links">
-          <ul>
-            <Link>
-              <li>
-                <FaTwitter />
-              </li>
-            </Link>
-            <Link>
-              <li>
-                <FaInstagram />
-              </li>
-            </Link>
-            <Link>
-              <li>
-                <FaFacebookF />
-              </li>
-            </Link>
-          </ul>
-        </div> */}
       </div>
       <div className="container-fluid navbar-wrapper">
         <nav className=" container navbar navbar-expand-lg navbar-body">

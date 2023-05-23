@@ -246,13 +246,13 @@ const SAT = () => {
                   <td>2-8</td>
                 </tr>
                 <tr>
-                  <td colSpan="2">Total (No Essay)</td>
+                  <td >Total (No Essay)</td>
                   <td>154</td>
                   <td>3hrs</td>
                   <td>400 - 1600</td>
                 </tr>
                 <tr>
-                  <td colSpan="2">Total (+ Essay)</td>
+                  <td >Total (+ Essay)</td>
                   <td>155</td>
                   <td>3hrs 50 mins</td>
                   <td>400 - 1600</td>
@@ -269,7 +269,7 @@ const SAT = () => {
           >
             <h6>SAT Exam in 2023: Myth-Busters</h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <p>
               In addition to the tips and resources mentioned above, it's
               important to also address some common myths and misconceptions
@@ -279,10 +279,10 @@ const SAT = () => {
             </p>
             <ul>
               <li>
-                The SAT is a test of innate intelligence, and only students with
-                high IQs can score well.
+                <span>Myth #1: The SAT is a test of innate intelligence, and only students with
+                high IQs can score well.</span>
                 <p>
-                  Fact: The SAT is not a measure of innate intelligence, but
+                  <span>Fact:</span> The SAT is not a measure of innate intelligence, but
                   rather a test of learned skills and knowledge. Students who
                   have put in the effort to learn the material and develop
                   test-taking strategies can perform well on the exam,
@@ -290,10 +290,10 @@ const SAT = () => {
                 </p>
               </li>
               <li>
-                The SAT is a test of high school curriculum, and students who
-                haven't taken certain classes will not do well.
+                <span> Myth #2: The SAT is a test of high school curriculum, and students who
+                haven't taken certain classes will not do well.</span>
                 <p>
-                  Fact: While some questions on the SAT may require knowledge of
+                  <span>Fact:</span> While some questions on the SAT may require knowledge of
                   high school curriculum, the test is designed to measure skills
                   that are developed over a longer period of time. Students who
                   have developed strong reading, writing, and math skills
@@ -302,10 +302,10 @@ const SAT = () => {
                 </p>
               </li>
               <li>
-                The SAT is all about speed, and students who can't work quickly
-                will not score well.
+                <span>Myth #3: The SAT is all about speed, and students who can't work quickly
+                will not score well.</span>
                 <p>
-                  Fact: While time management is an important part of performing
+                  <span>Fact:</span> While time management is an important part of performing
                   well on the SAT, the test is designed to allow students enough
                   time to complete each section. Students who focus on accuracy
                   and efficiency, rather than rushing through questions, can
@@ -313,20 +313,20 @@ const SAT = () => {
                 </p>
               </li>
               <li>
-                The SAT is a test of memorization, and students who haven't
-                memorized enough information will struggle.
+                <span>Myth #4: The SAT is a test of memorization, and students who haven't
+                memorized enough information will struggle.</span>
                 <p>
-                  Fact: The SAT is not a test of memorization, but rather a test
+                  <span>Fact:</span> The SAT is not a test of memorization, but rather a test
                   of critical thinking and problem-solving. Students who are
                   able to analyze and interpret information, rather than simply
                   regurgitating facts, can perform well on the exam.
                 </p>
               </li>
               <li>
-                The SAT only measures verbal and math skills, and other skills
-                like creativity and problem-solving are not important.
+                <span>Myth #5: The SAT only measures verbal and math skills, and other skills
+                like creativity and problem-solving are not important.</span>
                 <p>
-                  Fact: While the SAT does primarily focus on verbal and math
+                  <span>Fact:</span> While the SAT does primarily focus on verbal and math
                   skills, it also includes sections that assess a student's
                   ability to analyze and synthesize information, and to apply
                   problem-solving skills in real-world situations. These skills
@@ -336,11 +336,11 @@ const SAT = () => {
                 </p>
               </li>
               <li>
-                The SAT is an unfair measure of a student's abilities, as some
+               <span>Myth #6: The SAT is an unfair measure of a student's abilities, as some
                 students have access to better resources and preparation than
-                others.
+                others.</span>
                 <p>
-                  Fact: While it is true that some students may have more access
+                  <span>Fact:</span> While it is true that some students may have more access
                   to resources and preparation than others, the SAT is designed
                   to be a fair and standardized test that measures a student's
                   skills and knowledge. The College Board, which administers the
@@ -459,6 +459,11 @@ const SAT = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="faq">
+        <Link to='/faqs/sat' className="btn btn-primary mx-3">SAT Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register SAT Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

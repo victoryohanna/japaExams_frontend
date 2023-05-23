@@ -1,4 +1,5 @@
 import "../../sass/oet.scss";
+import { Link } from "react-router-dom";
 
 const OET = () => {
   return (
@@ -238,32 +239,32 @@ const OET = () => {
           >
             <h6>OET Exam: Myth Busters</h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <ul>
               <li>
-                OET is only for healthcare professionals working in
-                English-speaking countries.
+                <span>Myth #1: OET is only for healthcare professionals working in
+                English-speaking countries.</span>
                 <p>
-                  Fact: OET is recognized and accepted in many countries around
+                  <span>Fact:</span> OET is recognized and accepted in many countries around
                   the world, including the UK, Australia, New Zealand, Ireland,
                   Singapore, Dubai, and more. It is also accepted by many
                   healthcare regulatory bodies and institutions.
                 </p>
               </li>
               <li>
-                OET only tests medical knowledge and not language skills.
+                <span> Myth #2: OET only tests medical knowledge and not language skills.</span>
                 <p>
-                  Fact: OET tests both medical knowledge and language skills.
+                  <span>Fact:</span> OET tests both medical knowledge and language skills.
                   The exam includes reading, writing, listening, and speaking
                   components, which assess your ability to communicate
                   effectively in a healthcare setting.
                 </p>
               </li>
               <li>
-                OET is easier than other English language tests like IELTS or
-                TOEFL.
+                <span>Myth #3: OET is easier than other English language tests like IELTS or
+                TOEFL.</span>
                 <p>
-                  Fact: OET is specifically designed for healthcare
+                  <span>Fact:</span> OET is specifically designed for healthcare
                   professionals, and therefore, the content of the test is
                   tailored to their profession. However, it is not necessarily
                   easier than other English language tests. It requires a
@@ -272,27 +273,27 @@ const OET = () => {
                 </p>
               </li>
               <li>
-                OET only tests candidates on British English.
+                <span>Myth #4: OET only tests candidates on British English.</span>
                 <p>
-                  Fact: OET is designed to be relevant to all English-speaking
+                  <span>Fact:</span> OET is designed to be relevant to all English-speaking
                   countries, and therefore, the test includes a range of accents
                   and dialects, including American, British, Australian, and New
                   Zealand English.
                 </p>
               </li>
               <li>
-                OET results are not recognized by immigration authorities.
+                <span>Myth #5: OET results are not recognized by immigration authorities.</span>
                 <p>
-                  Fact: OET results are recognized by immigration authorities in
+                  <span>Fact:</span> OET results are recognized by immigration authorities in
                   many countries, including the UK, Australia, New Zealand, and
                   Ireland. However, it is important to check the specific
                   requirements of the country you are applying to.
                 </p>
               </li>
               <li>
-                OET is too expensive.
+                <span>Myth #6: OET is too expensive.</span>
                 <p>
-                  Fact: While OET is not a cheap exam, it is comparable in cost
+                  <span>Fact:</span> While OET is not a cheap exam, it is comparable in cost
                   to other English language tests like IELTS and TOEFL.
                   Additionally, the cost is often covered by employers or
                   healthcare institutions, and the exam can be taken multiple
@@ -300,18 +301,18 @@ const OET = () => {
                 </p>
               </li>
               <li>
-                OET is only for doctors and nurses.
+                <span>Myth #7: OET is only for doctors and nurses.</span>
                 <p>
-                  Fact: OET is designed for all healthcare professionals,
+                  <span>Fact:</span> OET is designed for all healthcare professionals,
                   including dentists, pharmacists, physiotherapists,
                   radiographers, occupational therapists, and more.
                 </p>
               </li>
               <li>
-                OET is only necessary for healthcare professionals seeking
-                registration or employment in an English-speaking country.
+                <span>Myth #8: OET is only necessary for healthcare professionals seeking
+                registration or employment in an English-speaking country.</span>
                 <p>
-                  Fact: Even if a healthcare professional is not seeking
+                  <span>Fact:</span> Even if a healthcare professional is not seeking
                   employment or registration in an English-speaking country,
                   having a strong command of English can enhance their ability
                   to communicate with patients, colleagues, and other healthcare
@@ -322,6 +323,11 @@ const OET = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="faq">
+        <Link to='/faqs/oet' className="btn btn-primary mx-3">OET Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register OET Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );

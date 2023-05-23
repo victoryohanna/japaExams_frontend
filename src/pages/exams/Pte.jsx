@@ -1,4 +1,5 @@
 import "../../sass/pte.scss";
+import { Link } from "react-router-dom";
 
 const PTE = () => {
   return (
@@ -257,60 +258,60 @@ const PTE = () => {
           >
             <h6>PTE Exam- Myth Busters</h6>
           </button>
-          <div className="collapse" id="myth-burster">
+          <div className="collapse myth-burster" id="myth-burster">
             <ul>
               <li>
-                You can pass the PTE Exam by memorizing model answers and
-                phrases.
+                <span>Myth #1: You can pass the PTE Exam by memorizing model answers and
+                phrases.</span>
                 <p>
-                  Fact: Memorization alone will not guarantee success in the PTE
+                  <span>Fact:</span> Memorization alone will not guarantee success in the PTE
                   Exam. The exam assesses your language proficiency, including
                   your ability to use a wide range of vocabulary and structures
                   in different contexts.
                 </p>
               </li>
               <li>
-                You need to speak with an American or British accent to score
-                well in the PTE Exam.
+                <span>Myth #2: You need to speak with an American or British accent to score
+                well in the PTE Exam.</span>
                 <p>
-                  Fact: The PTE Exam is designed to assess your overall English
+                  <span>Fact:</span> The PTE Exam is designed to assess your overall English
                   language proficiency, regardless of your accent. As long as
                   you are able to communicate clearly and effectively, your
                   accent should not affect your score.
                 </p>
               </li>
               <li>
-                You need to write long and complex sentences to get a high score
-                in the PTE Exam.
+                <span> Myth #3: You need to write long and complex sentences to get a high score
+                in the PTE Exam.</span>
                 <p>
-                  Fact: While it is important to use a variety of sentence
+                  <span>Fact:</span> While it is important to use a variety of sentence
                   structures, writing excessively long and complicated sentences
                   can actually lower your score if they are not grammatically
                   correct or clear.
                 </p>
               </li>
               <li>
-                The PTE Exam is easier than other English language proficiency
-                tests, such as the TOEFL or IELTS.
+                <span>Myth #4: The PTE Exam is easier than other English language proficiency
+                tests, such as the TOEFL or IELTS.</span>
                 <p>
-                  Fact: Each exam has its own unique format and requirements.
+                  <span>Fact:</span> Each exam has its own unique format and requirements.
                   While the PTE Exam may be better suited for some test takers,
                   it is not necessarily easier than other tests.
                 </p>
               </li>
               <li>
-                You can't use a calculator during the PTE Exam.
+                <span>Myth #5: You can't use a calculator during the PTE Exam.</span>
                 <p>
-                  Fact: The PTE Exam provides an on-screen calculator for the
+                  <span>Fact:</span> The PTE Exam provides an on-screen calculator for the
                   mathematical questions, so you don't need to worry about doing
                   complex calculations by hand.
                 </p>
               </li>
               <li>
-                You must answer every question in the PTE Exam to get a high
-                score.
+               <span>Myth #6: You must answer every question in the PTE Exam to get a high
+                score.</span>
                 <p>
-                  Fact: The PTE Exam assesses your overall language proficiency,
+                  <span>Fact:</span> The PTE Exam assesses your overall language proficiency,
                   so it is more important to demonstrate your strengths than to
                   answer every question. If you are struggling with a particular
                   question, it is better to move on to the next one rather than
@@ -318,9 +319,9 @@ const PTE = () => {
                 </p>
               </li>
               <li>
-                The PTE Exam only tests your academic English skills.
+                <span>Myth #7: The PTE Exam only tests your academic English skills.</span>
                 <p>
-                  Fact: The PTE Exam assesses a wide range of language skills,
+                  <span>Fact:</span> The PTE Exam assesses a wide range of language skills,
                   including listening, speaking, reading, and writing, in both
                   academic and real-life contexts.
                 </p>
@@ -413,6 +414,11 @@ const PTE = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="faq">
+        <Link to='/faqs/pte' className="btn btn-primary mx-3">PTE Frequently Asked Questions</Link>
+        <Link to='/' className="btn btn-primary mx-3">Register PTE Exams</Link>
+        <Link to='/' className="btn btn-primary mx-3">Join Classes</Link>
       </div>
     </div>
   );
