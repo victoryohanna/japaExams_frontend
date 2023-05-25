@@ -22,6 +22,7 @@ import Qgmat from "./components/faqs/Qgmat";
 import Qsat from "./components/faqs/Qsat"; 
 import Qoet from "./components/faqs/Qoet";
 import Qpte from "./components/faqs/Qpte";
+import Qduolingo from "./components/faqs/Qduolingo";
 import OurServices from "./pages/Services";
 import AdmissionProcessing from "./components/ourServices/admissionProcessing";
 import PersonalStatement from "./components/ourServices/sop"; 
@@ -54,6 +55,7 @@ function App() {
           <Route path="/faqs/sat" element={<Qsat/>}/>
           <Route path="/faqs/oet" element={<Qoet/>}/>
           <Route path="/faqs/pte" element={<Qpte/>}/>
+          <Route path="/faqs/duolingo" element={<Qduolingo/>}/>
         </Route>
         <Route path="/services" element={<OurServices/>}>
           <Route path="/services" element={<AdmissionProcessing/>}/>
