@@ -12,6 +12,7 @@ import GMAT from "./pages/exams/Gmat";
 import SAT from "./pages/exams/Sat";
 import OET from "./pages/exams/Oet";
 import PTE from "./pages/exams/Pte";
+import Duolingo from "./pages/exams/Duolingo";
 import NotFound from "./pages/NotFound";
 import FAQs from "./pages/FAQs";
 import Qgre from "./components/faqs/Qgre";
@@ -43,6 +44,7 @@ function App() {
         <Route path="/sat" element={<SAT/>}/>
         <Route path="/oet" element={<OET/>}/>
         <Route path="/pte" element={<PTE/>}/>
+        <Route path="/duolingo" element={<Duolingo/>}/>
         <Route path="/faqs" element={<FAQs />}>
           <Route path="/faqs" element={<Qgre />} />
           <Route path="/faqs/gre" element={<Qgre />} />
