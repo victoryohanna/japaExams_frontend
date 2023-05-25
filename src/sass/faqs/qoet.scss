@@ -8,6 +8,11 @@
 
     .collapse-content{
         margin: 3px 0;
+
+        a {
+            text-decoration: none;
+            color: #000000
+          }
     }
 
     p{
@@ -27,3 +32,14 @@
     }
     
 }
+
+@media screen and (max-width: 600px) {
+    .qoet-container {
+      .collapse-content {
+        word-wrap: break-word;
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }

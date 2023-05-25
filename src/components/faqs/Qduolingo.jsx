@@ -3,12 +3,6 @@ import "../../sass/faqs/qduolingo.scss";
 const Qduolingo = () => {
   return (
     <div className="qduolingo-container">
-      <p>
-        You might be interested in exploring some of these Frequently Asked
-        Questions (FAQs) that other applicants have asked us in the past at Japa
-        Exams. We hope you find them useful.
-      </p>
-
       <div className="collapse-content">
         <Link
           className="dropdown-toggle"

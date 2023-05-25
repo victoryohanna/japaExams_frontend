@@ -4,11 +4,6 @@ import "../../sass/faqs/qtoefl.scss";
 const QIelts = () => {
   return (
     <div className="qtoefl-container">
-      <p>
-        You might be interested in exploring some of these Frequently Asked
-        Questions (FAQs) that other applicants have asked us in the past at Japa
-        Exams. We hope you find them useful.
-      </p>
       <div>
         <h4>Q: What is the IELTS exam?</h4>
         <p>

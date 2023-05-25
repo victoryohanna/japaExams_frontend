@@ -1,29 +1,43 @@
-.qtoefl-container{
-    width: 95%;
-    margin: 10px auto;
-    padding: 5px ;
-    font-family: Droid Sans;
-    text-align: justify;
-    font-size: 18px;
+.qtoefl-container {
+  width: 95%;
+  margin: 10px auto;
+  padding: 5px;
+  font-family: Droid Sans;
+  text-align: justify;
+  font-size: 18px;
 
-    .collapse-content{
-        margin: 3px 0;
+  .collapse-content {
+    margin: 3px 0;
+
+    a {
+      text-decoration: none;
+      color: #000000;
     }
+  }
 
-    p{
-        span{
-            font-weight: 700;
-        }
+  p {
+    span {
+      font-weight: 700;
     }
+  }
 
-    .prep_resources{
-        h5{
-             margin-top: 20px;
+  .prep_resources {
+    h5 {
+      margin-top: 20px;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qtoefl-container {
+    .collapse-content {
+      word-wrap: break-word;
+      a {
         font-size: 16px;
-        font-style: italic;
-        font-weight: 700;
-        }
-       
+      }
     }
-    
+  }
 }

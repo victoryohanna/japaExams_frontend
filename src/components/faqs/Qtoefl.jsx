@@ -4,11 +4,7 @@ import "../../sass/faqs/qtoefl.scss";
 const Qtoefl = () => {
   return (
     <div className="qtoefl-container">
-      <p>
-        You might be interested in exploring some of these Frequently Asked
-        Questions (FAQs) that other applicants have asked us in the past at Japa
-        Exams. We hope you find them useful.
-      </p>
+      
 
       <div className="collapse-content">
         <Link
@@ -39,7 +35,7 @@ const Qtoefl = () => {
           Q: When can I take the TOEFL Exam?
         </Link>
         <div className="collapse" id="faqs_toefl2">
-          <p>
+       
             <span>Answer:</span>{" "}
             <p>
               The TOEFL test is offered multiple times per year at testing
@@ -61,7 +57,7 @@ const Qtoefl = () => {
               last part of this page. You are also welcome to{" "}
               <a href="/contact">contact us</a>{" "}
             </p>
-          </p>
+       
         </div>
       </div>
 
@@ -75,7 +71,7 @@ const Qtoefl = () => {
           Q: What do I need to take the TOEFL centre?
         </Link>
         <div className="collapse" id="faqs_toefl3">
-          <p>
+         
             <span>Answer:</span>
             <p>
               On the day of the TOEFL test, you should arrive at the testing
@@ -109,7 +105,7 @@ const Qtoefl = () => {
               from other test takers. Your score will be cancelled without
               refund if you violate the rules of conduct such as cheating.
             </p>
-          </p>
+         
         </div>
       </div>
 
@@ -123,7 +119,7 @@ const Qtoefl = () => {
           Q: How are TOEFL scores calculated?
         </Link>
         <div className="collapse" id="faqs_toefl4">
-          <p>
+         
             <span>Answer:</span>
             <p>
               The scoring of the TOEFL test is based on a scale that ranges from
@@ -148,7 +144,7 @@ const Qtoefl = () => {
               and a score of 0 to 5 points for the integrated task based on your
               ability to express your ideas clearly and effectively in writing.
             </p>
-          </p>
+          
         </div>
       </div>
 
