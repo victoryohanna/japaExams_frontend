@@ -20,7 +20,7 @@ const ReportScores = () => {
           </p>
         </div>
         <div className="form-addmission">
-          <h5 className="mt-3">Score Reporting Form details</h5>
+          <h5 className="mt-3">Score Reporting Form </h5>
           <span>
             Complete the form below to send your scores to a university, college
             or other institutions.
@@ -71,9 +71,9 @@ const ReportScores = () => {
                         Institution GRE code
                       </label>
                       <input
-                        type="email"
+                        type="text"
                         className="form-control form-control-sm"
-                        id="email"
+                        id="code"
                         placeholder=""
                       />
                     </div>
