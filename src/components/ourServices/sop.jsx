@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 import "../../sass/services/sop.scss";
 
@@ -58,21 +58,6 @@ const PersonalStatement = () => {
           application that showcases your strengths and convinces the admissions
           committee that you are the best candidate for the program.
         </p>
-
-        <div className="contactus ">
-          <div className="row button-section">
-            <div className="col-md-6">
-              <Link to="/" type="button" className="btn btn-primary">
-                Contact Us
-              </Link>
-            </div>
-            <div className="col-md-6 d-flex justify-content-end">
-              <Link to="/" type="button" className="btn btn-primary">
-                Order for personal statement
-              </Link>
-            </div>
-          </div>
-        </div>
         <div className="form-addmission">
           <h5 className="mt-3">Personal Statement Form details</h5>
           <span>

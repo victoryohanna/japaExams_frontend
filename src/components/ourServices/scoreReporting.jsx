@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import "../../sass/services/reportScore.scss";
 
 const ReportScores = () => {
@@ -20,12 +20,11 @@ const ReportScores = () => {
           </p>
         </div>
         <div className="form-addmission">
-          <div className="">
-            <span>
-              Complete the form below to send your scores to a university,
-              college or other institutions.
-            </span>
-          </div>
+          <h5 className="mt-3">Score Reporting Form details</h5>
+          <span>
+            Complete the form below to send your scores to a university, college
+            or other institutions.
+          </span>
           <div className="card mt-3">
             <div className="card-body form-card">
               <form>

@@ -47,18 +47,7 @@ const Passports = () => {
             you'll be ready to explore the world in no time.{" "}
             <Link to="/"> Contact us</Link> today to get started.
           </p>
-          <div className="row button-section">
-            <div className="col-md-6">
-              <Link to="/" type="button" className="btn btn-primary">
-                Contact Us
-              </Link>
-            </div>
-            <div className="col-md-6 d-flex justify-content-end">
-              <Link to="/" type="button" className="btn btn-primary">
-                Order for passport processing
-              </Link>
-            </div>
-          </div>
+          
         </div>
         <div className="form-addmission">
           <h5 className="mt-3">Passport Processing Form details</h5>

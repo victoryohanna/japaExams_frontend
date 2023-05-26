@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import "../../sass/services/fund.scss";
 
 const ProofOfFund = () => {
@@ -46,21 +46,6 @@ const ProofOfFund = () => {
           us today to learn more about our proof of funds service and how we can
           help you achieve your goals.
         </p>
-
-        <div className="contactus ">
-          <div className="row button-section">
-            <div className="col-md-6">
-              <Link to="/" type="button" className="btn btn-primary">
-                Contact Us
-              </Link>
-            </div>
-            <div className="col-md-6 d-flex justify-content-end">
-              <Link to="/" type="button" className="btn btn-primary">
-                Order for proof of fund
-              </Link>
-            </div>
-          </div>
-        </div>
         <div className="form-addmission">
           <h5 className="mt-3">Proof of Funds Form</h5>
           <span>

@@ -30,12 +30,23 @@
     }
 
     .form-addmission {
+      h5 {
+        font-weight: 700;
+        margin-top: 15px;
+      }
+      span {
+        opacity: 0.7;
+        font-style: italic;
+      }
+      
       .form-card {
         border-radius: 0;
         box-shadow: 0 0 2px 1px #f5f5f5;
 
         .delivery-info{
             margin: 10px 0;
+
+            
             span{
                 font-size: 14px;
                 opacity: 0.7;

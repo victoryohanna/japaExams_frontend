@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import image from "../../assets/process.jpg";
 import "../../sass/services/admissions.scss";
 
@@ -69,20 +69,7 @@ const AdmissionProcessing = () => {
             future.
           </p>
         </div>
-        <div className="contactus ">
-          <div className="row button-section">
-            <div className="col-md-6">
-              <Link to="/" type="button" className="btn btn-primary">
-                Contact Us
-              </Link>
-            </div>
-            <div className="col-md-6 d-flex justify-content-end">
-              <Link to="/" type="button" className="btn btn-primary">
-                Order Admission Services
-              </Link>
-            </div>
-          </div>
-        </div>
+      
         <div className="form-addmission">
           <h5 className="mt-3">Admission Request Form details</h5>
           <span>
