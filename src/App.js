@@ -29,6 +29,7 @@ import PersonalStatement from "./components/ourServices/sop";
 import ProofOfFund from "./components/ourServices/proofOfFund";
 import Passports from "./components/ourServices/passport";
 import Visa from "./components/ourServices/visa";
+import ReportScores from "./components/ourServices/scoreReporting";
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
           <Route path="/services/passports" element={<Passports/>}/> 
           <Route path="/services/visa" element={<Visa/>}/>
           <Route path="/services/personal-statements" element={<PersonalStatement/>}/>
+          <Route path="/services/score-reporting" element={<ReportScores/>}/>
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
