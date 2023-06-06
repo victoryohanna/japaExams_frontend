@@ -31,6 +31,7 @@ import Passports from "./components/ourServices/passport";
 import Visa from "./components/ourServices/visa";
 import ReportScores from "./components/ourServices/scoreReporting";
 import Consultancy from "./components/ourServices/consultancy";
+import StudyMaterials from "./components/materials/studyMaterials";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
           <Route path="/services/score-reporting" element={<ReportScores/>}/>
           <Route path="/services/consultancy" element={<Consultancy/>}/>
         </Route>
+        <Route path="/materials" element={<StudyMaterials/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { GrMail } from "react-icons/gr";
 import { MdCall } from "react-icons/md";
-import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 import brand from "../assets/brand.png";
 
 import "../sass/navbar.scss";
@@ -48,8 +47,8 @@ const Navbar = () => {
         <nav className=" container navbar navbar-expand-lg navbar-body">
           <div className="container-fluid">
             <Link to="/" className="navbar-brand navbar-mobile">
-            <img src={brand} alt="brand" className="" />
-          </Link>
+              <img src={brand} alt="brand" className="" />
+            </Link>
             <button
               className="navbar-toggler fff"
               type="button"
@@ -61,14 +60,17 @@ const Navbar = () => {
             >
               <span className="navbar-toggler-icon toggle-icon"></span>
             </button>
-            <div className="collapse navbar-collapse nav-collapse " id="navbarNav">
+            <div
+              className="collapse navbar-collapse nav-collapse "
+              id="navbarNav"
+            >
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link to="/" className="nav-link " aria-current="page">
                     Home
                   </Link>
                 </li>
-                
+
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -132,17 +134,26 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/services/admissions" className="dropdown-item ">
+                      <Link
+                        to="/services/admissions"
+                        className="dropdown-item "
+                      >
                         Admission Processing
                       </Link>
                     </li>
                     <li>
-                      <Link to="/services/personal-statements" className="dropdown-item">
+                      <Link
+                        to="/services/personal-statements"
+                        className="dropdown-item"
+                      >
                         Personal Statements
                       </Link>
                     </li>
                     <li>
-                      <Link to="/services/score-reporting" className="dropdown-item">
+                      <Link
+                        to="/services/score-reporting"
+                        className="dropdown-item"
+                      >
                         Score Reporting
                       </Link>
                     </li>
@@ -167,7 +178,10 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/services/consultancy" className="dropdown-item">
+                      <Link
+                        to="/services/consultancy"
+                        className="dropdown-item"
+                      >
                         Consultancy
                       </Link>
                     </li>
@@ -185,36 +199,21 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/" className="dropdown-item">
-                        Join Online Classes
+                      <Link to="/classes" className="dropdown-item">
+                        Join Classes
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
-                        Join Physical Classes
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/personal-tutor" className="dropdown-item">
                         Get a Personal Tutor
                       </Link>
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item dropdown">
-                  <Link
-                    to="/"
-                    className="nav-link  dropdown-toggle"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                  >
-                    Resources
+                <li className="nav-item ">
+                  <Link to="/materials" className="nav-link  ">
+                    Study Materials
                   </Link>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <Link className="dropdown-item">Get Study Materials</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className="nav-item dropdown">
                   <Link
@@ -227,12 +226,12 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/scholarships" className="dropdown-item">
                         Ongoing Scholarships
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" className="dropdown-item">
+                      <Link to="/pricing" className="dropdown-item">
                         Price & Services
                       </Link>
                     </li>

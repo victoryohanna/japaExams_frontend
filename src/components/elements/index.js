@@ -43,3 +43,47 @@ export const data = [
     image: img3,
   },
 ];
+
+export const exams = [
+  {
+    id:"1",
+    name:"Graduate Record Examination",
+    achronym:"GRE"
+  },
+  {
+    id:"2",
+    name:"Test Of Engliglish as a Foriegn Language",
+    achronym:"TOEFL"
+  },
+  {
+    id:"3",
+    name:"Scholastic Aptitute Test",
+    achronym:"SAT"
+  },
+  {
+    id:"4",
+    name:"Graduate Management Admission Test",
+    achronym:"GMAT"
+  },
+  {
+    id:"5",
+    name:"International English Language Testing System",
+    achronym:"IELTS"
+  },
+  
+  {
+    id:"6",
+    name:"Ocupational English Test",
+    achronym:"OET"
+  },
+  {
+    id:"7",
+    name:"Pearson Test of English",
+    achronym:"PTE"
+  },
+  {
+    id:"8",
+    name:"Duolingo English Test",
+    achronym:"DET"
+  },
+]
