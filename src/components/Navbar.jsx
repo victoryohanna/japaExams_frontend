@@ -199,7 +199,7 @@ const Navbar = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link to="/classes" className="dropdown-item">
+                      <Link to="/tutorials" className="dropdown-item">
                         Join Classes
                       </Link>
                     </li>

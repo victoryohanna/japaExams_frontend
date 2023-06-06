@@ -32,13 +32,14 @@ import Visa from "./components/ourServices/visa";
 import ReportScores from "./components/ourServices/scoreReporting";
 import Consultancy from "./components/ourServices/consultancy";
 import StudyMaterials from "./components/materials/studyMaterials";
+import ClassTutorials from "./components/tutorials/classes";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} /> 
         <Route path="/about" element={<AboutUs />} />
         <Route path="/register" element={<Register />} />
         <Route path="/gre" element={<GRE />} />
@@ -71,6 +72,7 @@ function App() {
           <Route path="/services/consultancy" element={<Consultancy/>}/>
         </Route>
         <Route path="/materials" element={<StudyMaterials/>}/>
+        <Route path="/tutorials" element={<ClassTutorials/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

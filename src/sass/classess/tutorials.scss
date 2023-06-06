@@ -1,0 +1,40 @@
+.container {
+  .header-text {
+    margin: 20px 0;
+  }
+  .content {
+    width: 80%;
+    margin: 20px auto;
+
+    p {
+      font-size: 18px;
+    }
+
+    ul {
+      font-size: 18px;
+
+      li {
+        list-style: none;
+
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        .header-text{
+            h2{
+                font-size: 22px;
+            }
+        }
+
+        .content{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
