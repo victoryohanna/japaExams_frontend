@@ -1,86 +1,69 @@
-import "../../sass/classess/tutorials.scss";
+import "../../sass/classess/personalTutor.scss";
 import { exams } from "../elements/index";
 
-const ClassTutorials = () => {
+const PersonalTutor = () => {
   return (
     <div className="container">
       <div className="header-text">
-        <h2>
-          Lectures - 5 Reasons to Join Our Tutorial Classes [Physical and
-          Online]
-        </h2>
+        <h2>Lectures – Get a Personal Tutor [Physical & Online]</h2>
       </div>
       <div className="content">
         <p>
-          Welcome to Japa Exams lectures and tutorial services! By now, you
-          already know that a very good score in international exams like the
-          GRE, SAT, GMAT, TOEFL, IELTS, OET, PTE and DUOLINGO is an important
-          aspect of your application. Competitive scores on these exams boost
-          your chances of admission, funding and immigration success. At Japa
-          Exams, we're passionate about helping you succeed in your exam and
-          achieve your personal goals.
+          Welcome to our one-of-a-kind personal tutor service, where we
+          understand that every student has unique learning needs and deserves
+          personalized attention to achieve their desired scores in exams like
+          the GRE, TOEFL, GMAT, SAT, OET, PTE, Duolingo, and more.
         </p>
         <p>
-          We understand that preparing for these exams can be overwhelming, and
-          that's why we're here to provide you with the tailored support and
-          guidance you need to excel. Our classes are taught by expert teachers
-          who have 8+ years of experience in the field and are dedicated to
-          helping you succeed. Our tutors use proven teaching techniques to
-          ensure that you fully understand the material and are confident in
-          your ability even before test day.
-        </p>
-        <p>
-          Our lectures can be attended physically at our location or virtually
-          from the comfort of your own home. We offer both options to provide
-          maximum flexibility and convenience for our students. Our physical
-          classes provide an immersive learning experience with face-to-face
-          interaction with our experienced tutors. On the other hand, our
-          virtual classes provide a convenient learning option, allowing you to
-          attend from anywhere in the world and study at your own pace.
+          We know from experience that studying for these exams can be
+          overwhelming and stressful, which is why our experienced tutors are
+          committed to providing you with the support and guidance you need to
+          excel. With our personal tutor service, you can get the following:
         </p>
         <ul>
-          <h4>
-            Here are 5 reasons why you should choose our tutorial services:
-          </h4>
           <li>
-            1. <span>Affordable:</span> We believe that quality education should
-            be accessible to everyone, which is why we offer affordable pricing
-            options. You'll receive top-quality teaching at a reasonable price,
-            without compromising on the quality of education.
+            1. <span>One-on-one Attention:</span> Our personal tutor service provides you
+            with one-on-one attention that you won't find in a classroom
+            setting. You'll receive individualized feedback, and your tutor will
+            work with you to improve your weak areas and help you achieve your
+            goals.
           </li>
           <li>
-            2. <span>Personalized attention:</span> We provide personalized
-            attention to each student, so you get the support and guidance you
-            need to succeed. Our teachers take the time to understand your
-            unique needs and tailor their teaching approach accordingly.
+            2. <span>Tailored Learning Experience:</span> We believe that every student is
+            unique, and so are their learning needs. Our tutors will work with
+            you to create a customized learning plan that is tailored to your
+            specific requirements. They will take the time to understand your
+            learning style, strengths, and weaknesses, and create a plan that
+            works best for you.
           </li>
           <li>
-            3. <span>High success rate:</span> Our students have a proven track
-            record of achieving their desired scores and reaching their goals.
-            We're proud of the success stories we've helped create, and we're
-            confident we can help you too
+            3. <span>Flexibility:</span> We understand that life can be hectic, and that's
+            why we offer flexible scheduling options. You can schedule your
+            tutoring sessions at a time that is convenient for you. You can
+            choose to have a regular schedule or opt for more flexible sessions.
           </li>
           <li>
-            4. <span>Comprehensive material:</span> Our classes cover all
-            aspects of the exams, including tips and tricks for tackling tricky
-            questions. You'll receive comprehensive material and resources that
-            will help you master the content and gain confidence in your
-            abilities.
+            4. <span>Affordable Pricing:</span> We believe that quality education should be
+            accessible to everyone, and our pricing reflects this philosophy. We
+            offer affordable pricing options, without compromising on the
+            quality of education.
           </li>
           <li>
-            5. <span>Flexible scheduling:</span> We understand that our students
-            have busy schedules, which is why we offer flexible scheduling
-            options. You can attend classes at a time that suits you, so you can
-            balance your studies with other commitments.
+            5. <span>Expert Tutors:</span> Our tutors are experts in their respective fields
+            and have over 8 years of experience in teaching. They use the latest
+            teaching techniques and methodologies to help you achieve your
+            goals. We have a rigorous selection process for our tutors, ensuring
+            that you receive top-quality teaching.
           </li>
         </ul>
         <p>
-          Don't let the stress and pressure of these exams hold you back. Join
-          our tutorial classes today and start your journey towards success.
-          Join a class today and take the first step towards achieving your
-          dream score
+          We're committed to helping you achieve your goals and succeed in your
+          exams. Our personal tutor service will provide you with the support,
+          guidance, and expertise you need to achieve your desired scores. Don't
+          wait any longer, start your journey towards success today by signing
+          up for our personal tutor service.
         </p>
-        <div className="form-classes">
+        <div className="form-personal_tutor">
           <h5 className="mt-3">Tutorials Form details</h5>
           <span>
             Submit the form below to join a class. Our agent will contact you
@@ -190,4 +173,4 @@ const ClassTutorials = () => {
   );
 };
 
-export default ClassTutorials;
+export default PersonalTutor;

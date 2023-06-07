@@ -33,6 +33,7 @@ import ReportScores from "./components/ourServices/scoreReporting";
 import Consultancy from "./components/ourServices/consultancy";
 import StudyMaterials from "./components/materials/studyMaterials";
 import ClassTutorials from "./components/tutorials/classes";
+import PersonalTutor from "./components/tutorials/personalTutor";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
         </Route>
         <Route path="/materials" element={<StudyMaterials/>}/>
         <Route path="/tutorials" element={<ClassTutorials/>}/>
+        <Route path="/tutors" element={<PersonalTutor/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -204,7 +204,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/personal-tutor" className="dropdown-item">
+                      <Link to="/tutors" className="dropdown-item">
                         Get a Personal Tutor
                       </Link>
                     </li>
