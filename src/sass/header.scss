@@ -83,8 +83,23 @@
       }
     }
   }
+
+  .carousel-section{
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+    animation-iteration-count: 10;
+  }
 }
 
+
+// @keyframes slideIn {
+//   0% {
+//     transform: rotate(0);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
 
 @media screen and (max-width: 990px) {
   .container-header {

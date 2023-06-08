@@ -11,7 +11,7 @@ const Header = () => {
       <Banner />
 
       <div
-        className="carousel slide carousel-fade carousel-section"
+        className="carousel slide carousel-fade carousel-section "
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
