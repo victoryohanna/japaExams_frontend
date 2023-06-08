@@ -2,7 +2,7 @@
 const NotFound =()=>{
     return(
         <div className="container">
-            <h1>Page Not Found</h1>
+            <h1>Coming Soon!!</h1>
         </div>
     )
 }
