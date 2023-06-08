@@ -1,5 +1,5 @@
 import "../../sass/materials/studyMaterials.scss";
-import { exams } from "../elements";
+import { exams } from "../elements/index";
 
 const StudyMaterials = () => {
   return (
@@ -37,29 +37,12 @@ const StudyMaterials = () => {
               return (
                 <div className="col-md-4" key={item.id}>
                   <div className="card-section">
-                    <div className="brand">
-                      <h3>Japa Exams</h3>
-                    </div>
-                    <div className="exams-section ">
-                      <div>
-                        <h3>{item.achronym}</h3>
-                      </div>
-                      <div>
-                        <span>{item.name}</span>
-                      </div>
-                    </div>
-                    <div className="subtext">
-                      <span>Study Pack</span>
-                    </div>
-                    <div className="btn-full">
-                      <button className="btn btn-primary" type="button">
-                        Order Full Study Pack
+                    <img src={item.image} alt="" />
+                    <div className="button-section">
+                      <button className="btn btn-primary">
+                        Order Full Pack
                       </button>
-                    </div>
-                    <div className=" btn-free ">
-                      <button className="btn btn-primary" type="button">
-                        Request Free Study Pack
-                      </button>
+                      <button className="btn btn-primary">Get Free Pack</button>
                     </div>
                   </div>
                 </div>
