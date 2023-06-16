@@ -7,7 +7,7 @@ import Featured from "../../components/featured/Featured";
 import Table from "../../components/table/Table";
 import Navbar from "../../components/sideNavbar/Navbar";
 
-const AdminDashboard = () => {
+const AdminDashboard = () => { 
   return (
     <div className="admin-wrapper">
       <div className="side-navbar">
@@ -55,7 +55,7 @@ const AdminDashboard = () => {
             </div>
           </div>
         </div>
-        <div className="charts">
+        <div className="charts-section">
           <Featured />
           <Chart title="Last 6 Months Order" aspect={2 / 1} />
         </div>
