@@ -1,29 +1,20 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../../sass/admin/admin.scss";
-
-import { MdDashboard, MdSettings, MdDelete, MdLogout } from "react-icons/md";
-import {
-  FaHome,
-  FaPlus,
-  FaEdit,
-  FaShoppingCart,
-  FaShoppingBag,
-  FaChartLine,
-} from "react-icons/fa";
+import { FaShoppingCart, FaShoppingBag, FaChartLine } from "react-icons/fa";
 
 import Chart from "../../components/chart/Chart";
 import Featured from "../../components/featured/Featured";
 import Table from "../../components/table/Table";
 import Navbar from "../../components/sideNavbar/Navbar";
 
-const AdminDashboard = () => { 
+const AdminDashboard = () => {
   return (
     <div className="admin-wrapper">
       <div className="side-navbar">
-         {/* <div className="averta-section">
+        {/* <div className="averta-section"> 
           <img src="" alt="" />
         </div>  */}
-        <Navbar/>
+        <Navbar />
       </div>
       <div className=" dashboar-overview">
         <div className="order-section">

@@ -3,10 +3,9 @@
   font-family: "Droid Sans";
 
   .side-navbar {
-    background: #008b8b;
+    background: #203040;
     width: 20%;
     height: auto;
-    // padding: 25px;
     .averta-section {
       margin: 20px 0;
       img {
@@ -17,42 +16,7 @@
         border: 1px solid rgb(182, 179, 179);
       }
     }
-    .nav-container {
-      .navbar-nav {
-        .nav-item {
-          font-size: 22px;
-          margin: 15px 0;
-          font-weight: 500;
-          color: #ffffff;
-          width: auto;
-          :hover {
-            color: rgb(64, 64, 219);
-          }
-
-          span {
-            margin: 0 5px;
-          }
-        }
-
-        .logout {
-          margin-top: 6em;
-          font-size: 22px;
-          font-weight: 600;
-          color: #ffffff;
-          button {
-            font-size: 22px;
-            font-weight: 500;
-            color: #ffffff;
-            background: rgba(32, 48, 64);
-            border: none;
-          }
-
-          :hover {
-            color: rgb(64, 64, 219);
-          }
-        }
-      }
-    }
+    
   }
 
   .dashboar-overview {
@@ -115,8 +79,10 @@
 
 @media screen and (max-width: 790px) {
   .admin-wrapper {
+    display: inline-block;
     .side-navbar {
-      background: rgba(32, 48, 64);
+      background: #ffffff;
+      width:100%;
 
       .averta-section {
         margin: 20px 0;
@@ -128,42 +94,7 @@
           border: 1px solid rgb(182, 179, 179);
         }
       }
-      .nav-container {
-        .navbar-nav {
-          .nav-item {
-            font-size: 22px;
-            margin: 15px 0;
-            font-weight: 500;
-            color: #ffffff;
-            width: auto;
-            :hover {
-              color: rgb(64, 64, 219);
-            }
-
-            span {
-              margin: 0 5px;
-            }
-          }
-
-          .logout {
-            margin-top: 6em;
-            font-size: 22px;
-            font-weight: 600;
-            color: #ffffff;
-            button {
-              font-size: 22px;
-              font-weight: 500;
-              color: #ffffff;
-              background: rgba(32, 48, 64);
-              border: none;
-            }
-
-            :hover {
-              color: rgb(64, 64, 219);
-            }
-          }
-        }
-      }
+      
     }
 
     .dashboar-overview {
