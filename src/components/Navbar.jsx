@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="container-fluid navbar-wrapper">
         <nav className=" container navbar navbar-expand-lg navbar-body">
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand navbar-mobile">
+            <Link to="/admin" className="navbar-brand navbar-mobile">
               <img src={brand} alt="brand" className="" />
             </Link>
             <button
