@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom"; 
 import "../sass/faqs/faqs.scss";
 
 const FAQs = () => {
@@ -117,7 +117,7 @@ const FAQs = () => {
           </li>
         </ul>
       </div>
-      <Outlet />
+      <Outlet /> 
     </div>
   );
 };
