@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 
 import "../sass/register.scss";
 import { data } from "../components/elements";

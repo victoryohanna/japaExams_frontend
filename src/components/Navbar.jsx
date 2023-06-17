@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="nav-wrapper">
       <div className="top-nav-links container">
         <div className="brand_section">
-          <Link to="/" className="navbar-brand">
+          <Link to="/admin" className="navbar-brand">
             <img src={brand} alt="brand" />
           </Link>
         </div>
