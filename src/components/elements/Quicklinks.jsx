@@ -12,11 +12,13 @@ const Quicklinks = () => {
         {data.map((item, i) => {
           return (
             <div className="col-md-3 " key={i}>
-              <Link to="/">
+              <div className="items">
+                <Link to={`/${item.endpoint}`}>
                 <img src={item.image} alt="" />
-                <h5>{item.title}</h5>
+                {/* <h5>{item.title}</h5> */}
                 <p>{item.description}</p>
               </Link>
+              </div>
             </div>
           );
         })}

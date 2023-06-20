@@ -1,33 +1,37 @@
 .container {
-  .header-text{
+  padding: 20px 0;
+  .header-text {
     display: flex;
     justify-content: center;
-
-    h2{
-      margin: 10px 0;
-    }
+   
   }
   .row {
-    margin: 1rem 0;
-
     .col-md-3 {
       padding: 15px;
       margin: 15px 0;
       font-family: "Droid Sans";
 
-      img {
-        border-radius: 4px;
-        width: 98%;
-        margin: 5px 0;
-      }
+      .items {
+        height: 350px;
+        padding: 10px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        img {
+          border-radius: 4px;
+          width: 98%;
+          height: 50px;
+          margin: 5px 0;
+        }
 
-      p {
-        font-size: 18px;
-      }
+        p {
+          font-size: 18px;
+          margin: 20px 0;
+        }
 
-      a {
-        text-decoration: none;
-        color: #1a1a1b;
+        a {
+          text-decoration: none;
+          color: #1a1a1b;
+        }
       }
 
       :hover {
@@ -41,13 +45,15 @@
   .container {
     .row {
       .col-md-3 {
-        img {
-          max-width: 100%;
-          margin: auto;
-        }
+        .items {
+          img {
+            max-width: 100%;
+            margin: auto;
+          }
 
-        p {
-          font-size: 16px;
+          p {
+            font-size: 16px;
+          }
         }
       }
     }
